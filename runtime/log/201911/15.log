@@ -1,0 +1,148 @@
+---------------------------------------------------------------
+[ 2019-11-15T16:45:04+08:00 ] 127.0.0.1 GET www.mall.com/api/index
+[运行时间：0.362457s] [吞吐率：2.76req/s] [内存消耗：2,466.28kb] [文件加载：51]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->index[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013526s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_banner` [ RunTime:0.027671s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_banner` [ RunTime:0.002608s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_icon` [ RunTime:0.022135s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_icon` [ RunTime:0.001801s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_active` [ RunTime:0.049598s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_active` [ RunTime:0.002432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_floor` [ RunTime:0.019102s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_floor` [ RunTime:0.002054s ]
+---------------------------------------------------------------
+[ 2019-11-15T16:45:14+08:00 ] 127.0.0.1 GET www.mall.com/api/index
+[运行时间：0.291551s] [吞吐率：3.43req/s] [内存消耗：2,466.27kb] [文件加载：51]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->index[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003089s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_banner` [ RunTime:0.014650s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_banner` [ RunTime:0.003860s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_icon` [ RunTime:0.013767s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_icon` [ RunTime:0.003673s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_active` [ RunTime:0.082423s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_active` [ RunTime:0.002660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_floor` [ RunTime:0.033883s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_floor` [ RunTime:0.002815s ]
+---------------------------------------------------------------
+[ 2019-11-15T16:45:24+08:00 ] 127.0.0.1 GET www.mall.com/api/index
+[运行时间：0.286335s] [吞吐率：3.49req/s] [内存消耗：2,466.28kb] [文件加载：51]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->index[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001806s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_banner` [ RunTime:0.116663s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_banner` [ RunTime:0.001149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_icon` [ RunTime:0.011594s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_icon` [ RunTime:0.001108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_active` [ RunTime:0.046756s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_active` [ RunTime:0.001702s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_floor` [ RunTime:0.018404s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_floor` [ RunTime:0.000830s ]
+---------------------------------------------------------------
+[ 2019-11-15T16:45:44+08:00 ] 127.0.0.1 GET www.mall.com/api/index
+[运行时间：0.181979s] [吞吐率：5.50req/s] [内存消耗：2,466.28kb] [文件加载：51]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->index[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002217s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_banner` [ RunTime:0.012936s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_banner` [ RunTime:0.002705s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_icon` [ RunTime:0.012149s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_icon` [ RunTime:0.003091s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_active` [ RunTime:0.026525s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_active` [ RunTime:0.002136s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_floor` [ RunTime:0.013044s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_floor` [ RunTime:0.001991s ]

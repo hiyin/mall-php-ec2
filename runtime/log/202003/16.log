@@ -1,0 +1,3592 @@
+---------------------------------------------------------------
+[ 2020-03-16T21:27:10+08:00 ] 127.0.0.1 GET www.mall.com/
+[运行时间：0.167749s] [吞吐率：5.96req/s] [内存消耗：1,621.22kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\mall\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T21:27:13+08:00 ] 127.0.0.1 GET www.mall.com/admin
+[运行时间：0.111873s] [吞吐率：8.94req/s] [内存消耗：1,720.31kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T21:27:15+08:00 ] 127.0.0.1 GET www.mall.com/admin/login/index.html
+[运行时间：0.036261s] [吞吐率：27.58req/s] [内存消耗：1,703.67kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpStudy\WWW\mall\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T21:27:15+08:00 ] 127.0.0.1 GET www.mall.com/captcha.html
+[运行时间：0.071568s] [吞吐率：13.97req/s] [内存消耗：1,403.41kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\mall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T21:27:22+08:00 ] 127.0.0.1 POST www.mall.com/admin/login/ajaxlogin.html
+[运行时间：0.127696s] [吞吐率：7.83req/s] [内存消耗：2,490.27kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'ajaxlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mall.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mall.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => 'vrkb',
+)
+[ info ] [ RUN ] app\admin\controller\Login->ajaxLogin[ D:\phpStudy\WWW\mall\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001802s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_admin` [ RunTime:0.039898s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000981s ]
+---------------------------------------------------------------
+[ 2020-03-16T21:27:22+08:00 ] 127.0.0.1 GET www.mall.com/admin/index/index.html
+[运行时间：0.199510s] [吞吐率：5.01req/s] [内存消耗：2,747.79kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\mall\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\index\index.html [ array (
+  0 => 'rulesName',
+  1 => 'username',
+  2 => 'userid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011429s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_group_access` [ RunTime:0.033482s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `qy_auth_group_access` `auth_group_access` INNER JOIN `qy_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = 37 [ RunTime:0.003291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_rule` [ RunTime:0.030528s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001380s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001008s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 78 LIMIT 1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.001069s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 54 LIMIT 1 [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 69 LIMIT 1 [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 70 LIMIT 1 [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 72 LIMIT 1 [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.000642s ]
+---------------------------------------------------------------
+[ 2020-03-16T21:27:23+08:00 ] 127.0.0.1 GET www.mall.com/admin/index/console.html
+[运行时间：0.249614s] [吞吐率：4.01req/s] [内存消耗：2,554.64kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'console',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->console[ D:\phpStudy\WWW\mall\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\index\console.html [ array (
+  0 => 'rulesName',
+  1 => 'articleNum',
+  2 => 'todayArticle',
+  3 => 'productNum',
+  4 => 'todayProduct',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001223s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_group_access` [ RunTime:0.044861s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `qy_auth_group_access` `auth_group_access` INNER JOIN `qy_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = 37 [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_rule` [ RunTime:0.030311s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.001150s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001732s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 78 LIMIT 1 [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.001306s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.001649s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 54 LIMIT 1 [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000987s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.001834s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 69 LIMIT 1 [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 70 LIMIT 1 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 72 LIMIT 1 [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_article` [ RunTime:0.031761s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_article` LIMIT 1 [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_article` WHERE  `data` BETWEEN '1584288000' AND '1584374400' LIMIT 1 [ RunTime:0.001504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.030231s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` LIMIT 1 [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `data` BETWEEN '1584288000' AND '1584374400' LIMIT 1 [ RunTime:0.001421s ]
+---------------------------------------------------------------
+[ 2020-03-16T21:27:28+08:00 ] 127.0.0.1 GET www.mall.com/admin/pay/index.html
+[运行时间：0.216643s] [吞吐率：4.62req/s] [内存消耗：2,700.63kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Pay->index[ D:\phpStudy\WWW\mall\application\admin\controller\Pay.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\pay\index.html [ array (
+  0 => 'rulesName',
+  1 => 'pay',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010572s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_group_access` [ RunTime:0.030581s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `qy_auth_group_access` `auth_group_access` INNER JOIN `qy_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = 37 [ RunTime:0.001138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_rule` [ RunTime:0.028118s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 78 LIMIT 1 [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000911s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.000988s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 54 LIMIT 1 [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 69 LIMIT 1 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 70 LIMIT 1 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 72 LIMIT 1 [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.034478s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002510s ]
+---------------------------------------------------------------
+[ 2020-03-16T21:34:57+08:00 ] 127.0.0.1 GET www.mall.com/
+[运行时间：0.036979s] [吞吐率：27.04req/s] [内存消耗：1,621.52kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\mall\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T21:35:11+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/wxpay
+[运行时间：0.381796s] [吞吐率：2.62req/s] [内存消耗：2,814.02kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'wxpay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->wxpay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011699s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.031128s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000873s ]
+[ error ] [0]curl出错，错误码:60[D:\phpStudy\WWW\mall\extend\wxpay\WxPay.Api.php:576]
+---------------------------------------------------------------
+[ 2020-03-16T21:38:30+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/wxpay
+[运行时间：0.610514s] [吞吐率：1.64req/s] [内存消耗：2,782.66kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'wxpay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->wxpay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001293s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.031411s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001012s ]
+---------------------------------------------------------------
+[ 2020-03-16T21:38:31+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/wxpay
+[运行时间：0.533262s] [吞吐率：1.88req/s] [内存消耗：2,782.66kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'wxpay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->wxpay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011488s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.029810s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001447s ]
+---------------------------------------------------------------
+[ 2020-03-16T21:40:24+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/wxpay
+[运行时间：0.506823s] [吞吐率：1.97req/s] [内存消耗：2,782.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'wxpay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->wxpay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001939s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.048061s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002023s ]
+---------------------------------------------------------------
+[ 2020-03-16T21:42:19+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.086081s] [吞吐率：11.62req/s] [内存消耗：2,608.52kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001934s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.029604s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001088s ]
+---------------------------------------------------------------
+[ 2020-03-16T21:54:41+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.091173s] [吞吐率：10.97req/s] [内存消耗：2,526.68kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011397s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.027854s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001290s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:02:25+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.094131s] [吞吐率：10.62req/s] [内存消耗：2,526.96kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011582s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.027955s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001497s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:02:29+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.099246s] [吞吐率：10.08req/s] [内存消耗：2,526.83kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011521s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.042240s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001350s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:02:29+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.084464s] [吞吐率：11.84req/s] [内存消耗：2,526.83kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010886s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.029559s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000995s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:02:29+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.101044s] [吞吐率：9.90req/s] [内存消耗：2,526.83kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011899s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.046204s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000973s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:02:30+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.094206s] [吞吐率：10.62req/s] [内存消耗：2,526.83kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010429s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.037624s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000924s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:02:30+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.098974s] [吞吐率：10.10req/s] [内存消耗：2,526.83kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011960s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.043276s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001568s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:02:30+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.075721s] [吞吐率：13.21req/s] [内存消耗：2,526.83kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001414s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.030802s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001142s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:02:30+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.088389s] [吞吐率：11.31req/s] [内存消耗：2,526.83kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011211s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.033059s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001822s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:02:30+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.074488s] [吞吐率：13.42req/s] [内存消耗：2,526.83kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001308s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.029576s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001046s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:02:31+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.072324s] [吞吐率：13.83req/s] [内存消耗：2,526.83kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001530s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.026428s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000912s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:02:31+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.088079s] [吞吐率：11.35req/s] [内存消耗：2,526.83kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011565s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.030348s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001012s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:03:32+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.081930s] [吞吐率：12.21req/s] [内存消耗：2,526.90kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001348s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.028349s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000650s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:03:56+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.077043s] [吞吐率：12.98req/s] [内存消耗：2,527.38kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001792s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.028679s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000868s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:04:06+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.089937s] [吞吐率：11.12req/s] [内存消耗：2,527.61kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012043s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.029428s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000881s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:04:06+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.097324s] [吞吐率：10.27req/s] [内存消耗：2,527.61kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011166s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.031513s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000805s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:04:07+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.077138s] [吞吐率：12.96req/s] [内存消耗：2,527.61kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001480s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.030750s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000987s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:04:07+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.090882s] [吞吐率：11.00req/s] [内存消耗：2,527.61kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010730s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.034807s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000912s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:04:23+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.092421s] [吞吐率：10.82req/s] [内存消耗：2,527.48kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010661s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.027770s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002370s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:04:24+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.106000s] [吞吐率：9.43req/s] [内存消耗：2,527.38kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011330s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.043856s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001766s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:04:25+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.084491s] [吞吐率：11.84req/s] [内存消耗：2,527.38kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011284s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.028668s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001050s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:04:25+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.081111s] [吞吐率：12.33req/s] [内存消耗：2,527.38kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001784s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.034755s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001025s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:04:25+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.087978s] [吞吐率：11.37req/s] [内存消耗：2,527.38kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011928s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.030921s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001326s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:04:25+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.087891s] [吞吐率：11.38req/s] [内存消耗：2,527.38kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011997s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.031260s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000935s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:05:13+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.088230s] [吞吐率：11.33req/s] [内存消耗：2,526.08kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012213s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.028569s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001916s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:07:10+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.106202s] [吞吐率：9.42req/s] [内存消耗：2,525.47kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011701s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.039224s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001089s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:07:11+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.081341s] [吞吐率：12.29req/s] [内存消耗：2,525.47kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001505s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.030686s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001004s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:07:11+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.086595s] [吞吐率：11.55req/s] [内存消耗：2,525.47kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011722s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.028049s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001114s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:07:12+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.092977s] [吞吐率：10.76req/s] [内存消耗：2,525.47kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011341s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.037129s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000815s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:07:12+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.094767s] [吞吐率：10.55req/s] [内存消耗：2,525.47kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010382s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.039351s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000855s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:07:12+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.086705s] [吞吐率：11.53req/s] [内存消耗：2,525.47kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011834s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.030161s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001219s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:07:12+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.084621s] [吞吐率：11.82req/s] [内存消耗：2,525.47kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011272s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.029535s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000991s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:10:14+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/wxpay
+[运行时间：0.569650s] [吞吐率：1.76req/s] [内存消耗：2,782.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'wxpay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->wxpay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001623s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.050237s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001284s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:10:14+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/wxpay
+[运行时间：0.573363s] [吞吐率：1.74req/s] [内存消耗：2,782.54kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'wxpay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->wxpay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001722s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.047572s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000913s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:15:36+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.104954s] [吞吐率：9.53req/s] [内存消耗：2,615.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012267s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.030757s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001382s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:15:37+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.089875s] [吞吐率：11.13req/s] [内存消耗：2,615.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011027s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.033153s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001320s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:15:37+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.083705s] [吞吐率：11.95req/s] [内存消耗：2,615.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011187s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.026833s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001227s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:15:37+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.082246s] [吞吐率：12.16req/s] [内存消耗：2,615.24kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011044s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.027439s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000881s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:15:38+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.083091s] [吞吐率：12.03req/s] [内存消耗：2,615.27kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011920s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.025796s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001158s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:15:38+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.083932s] [吞吐率：11.91req/s] [内存消耗：2,615.27kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012080s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.027626s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001041s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:15:38+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.087119s] [吞吐率：11.48req/s] [内存消耗：2,615.27kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011609s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.030413s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001380s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:15:39+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.084422s] [吞吐率：11.85req/s] [内存消耗：2,615.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011596s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.027486s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000658s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:15:41+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.083958s] [吞吐率：11.91req/s] [内存消耗：2,615.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011394s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.026473s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001378s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:16:09+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.076764s] [吞吐率：13.03req/s] [内存消耗：2,615.21kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001276s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.028445s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001190s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:20:40+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.097688s] [吞吐率：10.24req/s] [内存消耗：2,615.54kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011697s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.029922s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000930s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:20:41+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.097682s] [吞吐率：10.24req/s] [内存消耗：2,615.51kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=bnl08p9lb1kfr8damrokjfuve4',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001568s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.046340s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001402s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:22:16+08:00 ] 127.0.0.1 GET www.mall.com/api/index
+[运行时间：0.288463s] [吞吐率：3.47req/s] [内存消耗：2,556.79kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->index[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010741s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_banner` [ RunTime:0.034495s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_banner` [ RunTime:0.001104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_active` [ RunTime:0.027075s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_active` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_icon` [ RunTime:0.026623s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_icon` [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_floor` [ RunTime:0.026333s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_floor` [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.026133s ]
+[ sql ] [ SQL ] SELECT `id`,`catename` FROM `qy_cate` WHERE  `recommend` = 1 LIMIT 4 [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate_content` [ RunTime:0.026083s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '1' [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.025538s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '1' LIMIT 6 [ RunTime:0.001076s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '2' [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '2' LIMIT 6 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '7' [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '7' LIMIT 6 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '8' [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '8' LIMIT 6 [ RunTime:0.000794s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:22:26+08:00 ] 127.0.0.1 POST www.mall.com/api/member/cartlist
+[运行时间：0.079612s] [吞吐率：12.56req/s] [内存消耗：1,741.77kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'cartlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->cartlist[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T22:22:38+08:00 ] 127.0.0.1 GET www.mall.com/api/index/cate
+[运行时间：0.134359s] [吞吐率：7.44req/s] [内存消耗：2,524.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->cate[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011045s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.040333s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` [ RunTime:0.001346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.025279s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '1' LIMIT 5 [ RunTime:0.001229s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '2' LIMIT 5 [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '7' LIMIT 5 [ RunTime:0.001112s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '8' LIMIT 5 [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '29' LIMIT 5 [ RunTime:0.001101s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '30' LIMIT 5 [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '31' LIMIT 5 [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '32' LIMIT 5 [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '33' LIMIT 5 [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '34' LIMIT 5 [ RunTime:0.001116s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '35' LIMIT 5 [ RunTime:0.001109s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '36' LIMIT 5 [ RunTime:0.001082s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '37' LIMIT 5 [ RunTime:0.001131s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '38' LIMIT 5 [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '39' LIMIT 5 [ RunTime:0.001142s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:22:41+08:00 ] 127.0.0.1 POST www.mall.com/api/member/index
+[运行时间：0.030524s] [吞吐率：32.76req/s] [内存消耗：1,741.68kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->index[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T22:22:44+08:00 ] 127.0.0.1 POST www.mall.com/api/member/cartlist
+[运行时间：0.027138s] [吞吐率：36.85req/s] [内存消耗：1,741.77kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'cartlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->cartlist[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T22:23:46+08:00 ] 127.0.0.1 GET www.mall.com/api/index
+[运行时间：0.226479s] [吞吐率：4.42req/s] [内存消耗：2,556.79kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->index[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000947s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_banner` [ RunTime:0.024573s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_banner` [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_active` [ RunTime:0.026066s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_active` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_icon` [ RunTime:0.031156s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_icon` [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_floor` [ RunTime:0.025079s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_floor` [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.025388s ]
+[ sql ] [ SQL ] SELECT `id`,`catename` FROM `qy_cate` WHERE  `recommend` = 1 LIMIT 4 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate_content` [ RunTime:0.024837s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '1' [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.024787s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '1' LIMIT 6 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '2' [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '2' LIMIT 6 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '7' [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '7' LIMIT 6 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '8' [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '8' LIMIT 6 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:23:48+08:00 ] 127.0.0.1 POST www.mall.com/api/member/cartlist
+[运行时间：0.027053s] [吞吐率：36.96req/s] [内存消耗：1,741.77kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'cartlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->cartlist[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T22:23:54+08:00 ] 127.0.0.1 POST www.mall.com/api/member/savecart
+[运行时间：0.027032s] [吞吐率：36.99req/s] [内存消耗：1,742.12kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'savecart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '13',
+  'token' => '',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'data' => '[]',
+)
+[ info ] [ RUN ] app\Api\controller\Member->savecart[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T22:23:54+08:00 ] 127.0.0.1 GET www.mall.com/api/index/cate
+[运行时间：0.117739s] [吞吐率：8.49req/s] [内存消耗：2,524.60kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->cate[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011629s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.026078s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.025971s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '1' LIMIT 5 [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '2' LIMIT 5 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '7' LIMIT 5 [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '8' LIMIT 5 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '29' LIMIT 5 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '30' LIMIT 5 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '31' LIMIT 5 [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '32' LIMIT 5 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '33' LIMIT 5 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '34' LIMIT 5 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '35' LIMIT 5 [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '36' LIMIT 5 [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '37' LIMIT 5 [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '38' LIMIT 5 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '39' LIMIT 5 [ RunTime:0.000648s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:23:57+08:00 ] 127.0.0.1 POST www.mall.com/api/member/cartlist
+[运行时间：0.026896s] [吞吐率：37.18req/s] [内存消耗：1,741.77kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'cartlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->cartlist[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T22:23:58+08:00 ] 127.0.0.1 POST www.mall.com/api/member/savecart
+[运行时间：0.027244s] [吞吐率：36.71req/s] [内存消耗：1,742.12kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'savecart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '13',
+  'token' => '',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'data' => '[]',
+)
+[ info ] [ RUN ] app\Api\controller\Member->savecart[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T22:23:58+08:00 ] 127.0.0.1 POST www.mall.com/api/member/index
+[运行时间：0.027289s] [吞吐率：36.64req/s] [内存消耗：1,741.68kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->index[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T22:24:03+08:00 ] 127.0.0.1 POST www.mall.com/api/member/cartlist
+[运行时间：0.039043s] [吞吐率：25.61req/s] [内存消耗：1,741.77kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'cartlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => '',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->cartlist[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T22:24:22+08:00 ] 127.0.0.1 POST www.mall.com/api/member/savecart
+[运行时间：0.026716s] [吞吐率：37.43req/s] [内存消耗：1,742.12kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'savecart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '13',
+  'token' => '',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'data' => '[]',
+)
+[ info ] [ RUN ] app\Api\controller\Member->savecart[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-16T22:24:47+08:00 ] 127.0.0.1 POST www.mall.com/api/index/login
+[运行时间：0.121610s] [吞吐率：8.22req/s] [内存消耗：2,652.34kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '46',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'telphone' => '18888888888',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\Api\controller\Index->login[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001351s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_member` [ RunTime:0.046514s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_member` WHERE  `telphone` = '18888888888' LIMIT 1 [ RunTime:0.000956s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:24:47+08:00 ] 127.0.0.1 POST www.mall.com/api/member/cartlist
+[运行时间：0.099103s] [吞吐率：10.09req/s] [内存消耗：2,688.96kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'cartlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->cartlist[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011347s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cart` [ RunTime:0.040688s ]
+[ sql ] [ SQL ] SELECT `c`.`id`,`c`.`attrid`,`c`.`flag`,`c`.`num`,`a`.`attr_0`,`a`.`attr_1`,`a`.`price`,`a`.`stock`,`p`.`mainimage`,`p`.`title` FROM `qy_cart` `c` INNER JOIN `qy_product_attr` `a` ON `a`.`id`=`c`.`attrid` INNER JOIN `qy_product` `p` ON `p`.`id`=`a`.`product_id` WHERE  `c`.`uid` = 1 ORDER BY `c`.`id` ASC [ RunTime:0.007924s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:25:39+08:00 ] 127.0.0.1 GET www.mall.com/api/index
+[运行时间：0.258538s] [吞吐率：3.87req/s] [内存消耗：2,556.79kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->index[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011463s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_banner` [ RunTime:0.026307s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_banner` [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_active` [ RunTime:0.026893s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_active` [ RunTime:0.001165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_icon` [ RunTime:0.027740s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_icon` [ RunTime:0.001265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_floor` [ RunTime:0.026840s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_floor` [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.025581s ]
+[ sql ] [ SQL ] SELECT `id`,`catename` FROM `qy_cate` WHERE  `recommend` = 1 LIMIT 4 [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate_content` [ RunTime:0.025940s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '1' [ RunTime:0.001136s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.025592s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '1' LIMIT 6 [ RunTime:0.001234s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '2' [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '2' LIMIT 6 [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '7' [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '7' LIMIT 6 [ RunTime:0.001223s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '8' [ RunTime:0.001062s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '8' LIMIT 6 [ RunTime:0.001115s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:25:41+08:00 ] 127.0.0.1 POST www.mall.com/api/member/cartlist
+[运行时间：0.074465s] [吞吐率：13.43req/s] [内存消耗：2,688.96kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'cartlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->cartlist[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010888s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cart` [ RunTime:0.024851s ]
+[ sql ] [ SQL ] SELECT `c`.`id`,`c`.`attrid`,`c`.`flag`,`c`.`num`,`a`.`attr_0`,`a`.`attr_1`,`a`.`price`,`a`.`stock`,`p`.`mainimage`,`p`.`title` FROM `qy_cart` `c` INNER JOIN `qy_product_attr` `a` ON `a`.`id`=`c`.`attrid` INNER JOIN `qy_product` `p` ON `p`.`id`=`a`.`product_id` WHERE  `c`.`uid` = 1 ORDER BY `c`.`id` ASC [ RunTime:0.000992s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:25:49+08:00 ] 127.0.0.1 POST www.mall.com/api/member/delcart
+[运行时间：0.123767s] [吞吐率：8.08req/s] [内存消耗：2,683.45kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'delcart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '17',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '62,63,64',
+)
+[ info ] [ RUN ] app\Api\controller\Member->delcart[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001415s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cart` [ RunTime:0.024883s ]
+[ sql ] [ SQL ] DELETE FROM `qy_cart`    WHERE  `uid` = '1'  AND `id` IN (62,63,64) [ RunTime:0.049883s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:25:49+08:00 ] 127.0.0.1 POST www.mall.com/api/member/getOrderAddress
+[运行时间：0.138074s] [吞吐率：7.24req/s] [内存消耗：2,691.17kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'getOrderAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '9',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ RUN ] app\Api\controller\Member->getOrderAddress[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001728s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_address` [ RunTime:0.072666s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_address` WHERE  `uid` = '1' LIMIT 1 [ RunTime:0.012048s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_address` WHERE  `uid` = '1'  AND `default` = '1' LIMIT 1 [ RunTime:0.001027s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:25:49+08:00 ] 127.0.0.1 POST www.mall.com/api/member/savecart
+[运行时间：0.145158s] [吞吐率：6.89req/s] [内存消耗：2,685.15kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'savecart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '159',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'data' => '[{"num":"6","attrid":"79","flag":"1"},{"num":"7","attrid":"50","flag":"1"},{"num":"1","attrid":"71","flag":"1"}]',
+)
+[ info ] [ RUN ] app\Api\controller\Member->savecart[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011705s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cart` [ RunTime:0.058084s ]
+[ sql ] [ SQL ] DELETE FROM `qy_cart`    WHERE  `uid` = '1' [ RunTime:0.001248s ]
+[ sql ] [ SQL ] INSERT INTO `qy_cart` (`num` , `attrid` , `uid` , `flag`) VALUES ( '6','79',1,'1' ) , ( '7','50',1,'1' ) , ( '1','71',1,'1' ) [ RunTime:0.001063s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:25:49+08:00 ] 127.0.0.1 POST www.mall.com/api/member/getBuyShopInfo
+[运行时间：0.182831s] [吞吐率：5.47req/s] [内存消耗：2,700.55kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'getBuyShopInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '114',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'data' => '[{"num":"6","attrid":"79"},{"num":"7","attrid":"50"},{"num":"1","attrid":"71"}]',
+)
+[ info ] [ RUN ] app\Api\controller\Member->getBuyShopInfo[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011796s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_attr` [ RunTime:0.063377s ]
+[ sql ] [ SQL ] SELECT `p`.`title`,`p`.`mainimage`,`a`.* FROM `qy_product_attr` `a` INNER JOIN `qy_product` `p` ON `a`.`product_id`=`p`.`id` WHERE  `a`.`id` = '79' LIMIT 1 [ RunTime:0.001373s ]
+[ sql ] [ SQL ] SELECT `p`.`title`,`p`.`mainimage`,`a`.* FROM `qy_product_attr` `a` INNER JOIN `qy_product` `p` ON `a`.`product_id`=`p`.`id` WHERE  `a`.`id` = '50' LIMIT 1 [ RunTime:0.001101s ]
+[ sql ] [ SQL ] SELECT `p`.`title`,`p`.`mainimage`,`a`.* FROM `qy_product_attr` `a` INNER JOIN `qy_product` `p` ON `a`.`product_id`=`p`.`id` WHERE  `a`.`id` = '71' LIMIT 1 [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_logistics` [ RunTime:0.053663s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_logistics` [ RunTime:0.001322s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:26:30+08:00 ] 127.0.0.1 POST www.mall.com/api/member/cartlist
+[运行时间：0.082555s] [吞吐率：12.11req/s] [内存消耗：2,688.96kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'cartlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->cartlist[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010141s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cart` [ RunTime:0.025555s ]
+[ sql ] [ SQL ] SELECT `c`.`id`,`c`.`attrid`,`c`.`flag`,`c`.`num`,`a`.`attr_0`,`a`.`attr_1`,`a`.`price`,`a`.`stock`,`p`.`mainimage`,`p`.`title` FROM `qy_cart` `c` INNER JOIN `qy_product_attr` `a` ON `a`.`id`=`c`.`attrid` INNER JOIN `qy_product` `p` ON `p`.`id`=`a`.`product_id` WHERE  `c`.`uid` = 1 ORDER BY `c`.`id` ASC [ RunTime:0.001079s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:26:36+08:00 ] 127.0.0.1 POST www.mall.com/api/member/delcart
+[运行时间：0.077591s] [吞吐率：12.89req/s] [内存消耗：2,681.98kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'delcart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '11',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '66',
+)
+[ info ] [ RUN ] app\Api\controller\Member->delcart[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011319s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cart` [ RunTime:0.026295s ]
+[ sql ] [ SQL ] DELETE FROM `qy_cart`    WHERE  `uid` = '1'  AND `id` IN (66) [ RunTime:0.001054s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:26:36+08:00 ] 127.0.0.1 POST www.mall.com/api/member/savecart
+[运行时间：0.117224s] [吞吐率：8.53req/s] [内存消耗：2,685.15kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'savecart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '159',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'data' => '[{"num":"6","attrid":"79","flag":false},{"num":"7","attrid":"50","flag":"1"},{"num":"1","attrid":"71","flag":false}]',
+)
+[ info ] [ RUN ] app\Api\controller\Member->savecart[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011802s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cart` [ RunTime:0.054198s ]
+[ sql ] [ SQL ] DELETE FROM `qy_cart`    WHERE  `uid` = '1' [ RunTime:0.001085s ]
+[ sql ] [ SQL ] INSERT INTO `qy_cart` (`num` , `attrid` , `uid` , `flag`) VALUES ( '6','79',1,0 ) , ( '7','50',1,'1' ) , ( '1','71',1,0 ) [ RunTime:0.001348s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:26:36+08:00 ] 127.0.0.1 POST www.mall.com/api/member/getOrderAddress
+[运行时间：0.110498s] [吞吐率：9.05req/s] [内存消耗：2,691.25kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'getOrderAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '9',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ RUN ] app\Api\controller\Member->getOrderAddress[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001225s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_address` [ RunTime:0.054377s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_address` WHERE  `uid` = '1' LIMIT 1 [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_address` WHERE  `uid` = '1'  AND `default` = '1' LIMIT 1 [ RunTime:0.000749s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:26:36+08:00 ] 127.0.0.1 POST www.mall.com/api/member/getBuyShopInfo
+[运行时间：0.135599s] [吞吐率：7.37req/s] [内存消耗：2,693.07kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'getBuyShopInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '46',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'data' => '[{"num":"7","attrid":"50"}]',
+)
+[ info ] [ RUN ] app\Api\controller\Member->getBuyShopInfo[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001348s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_attr` [ RunTime:0.054413s ]
+[ sql ] [ SQL ] SELECT `p`.`title`,`p`.`mainimage`,`a`.* FROM `qy_product_attr` `a` INNER JOIN `qy_product` `p` ON `a`.`product_id`=`p`.`id` WHERE  `a`.`id` = '50' LIMIT 1 [ RunTime:0.001432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_logistics` [ RunTime:0.038700s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_logistics` [ RunTime:0.001120s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:32:54+08:00 ] 127.0.0.1 POST www.mall.com/api/member/order
+[运行时间：0.179159s] [吞吐率：5.58req/s] [内存消耗：2,715.05kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '107',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'orderShop' => '[{"num":"7","attrid":"50"}]',
+  'addressid' => '',
+  'price' => 20973,
+  'logistics' => 2,
+  'message' => '',
+)
+[ info ] [ RUN ] app\Api\controller\Member->order[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010466s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_attr` [ RunTime:0.026050s ]
+[ sql ] [ SQL ] SELECT `price` FROM `qy_product_attr` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_logistics` [ RunTime:0.026124s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_logistics` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_address` [ RunTime:0.026325s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_address` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.026675s ]
+[ sql ] [ SQL ] INSERT INTO `qy_order` (`uid` , `ordernum` , `attrid` , `number` , `price` , `allprice` , `time` , `logistics` , `logisticsprice` , `username` , `telphone` , `city` , `address` , `message` , `status`) VALUES ('1' , '202003161584369173' , '50' , '7' , '2999' , '20973' , '1584369173' , '顺丰' , '20' , NULL , NULL , NULL , NULL , '' , 1) [ RunTime:0.000941s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:32:55+08:00 ] 127.0.0.1 POST www.mall.com/api/pay/alipay
+[运行时间：0.081053s] [吞吐率：12.34req/s] [内存消耗：2,615.11kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011506s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.026066s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001252s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:32:56+08:00 ] 127.0.0.1 POST www.mall.com/api/pay/alipay
+[运行时间：0.086983s] [吞吐率：11.50req/s] [内存消耗：2,615.13kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011658s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.033061s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001155s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:32:57+08:00 ] 127.0.0.1 POST www.mall.com/api/pay/alipay
+[运行时间：0.068975s] [吞吐率：14.50req/s] [内存消耗：2,615.13kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001371s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.025505s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000925s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:32:57+08:00 ] 127.0.0.1 POST www.mall.com/api/pay/alipay
+[运行时间：0.080194s] [吞吐率：12.47req/s] [内存消耗：2,615.13kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011727s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.025988s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001044s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:32:57+08:00 ] 127.0.0.1 POST www.mall.com/api/pay/alipay
+[运行时间：0.078274s] [吞吐率：12.78req/s] [内存消耗：2,615.13kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010409s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.025780s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001078s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:32:57+08:00 ] 127.0.0.1 POST www.mall.com/api/pay/alipay
+[运行时间：0.078673s] [吞吐率：12.71req/s] [内存消耗：2,615.13kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011364s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.025166s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001006s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:32:58+08:00 ] 127.0.0.1 POST www.mall.com/api/pay/alipay
+[运行时间：0.078541s] [吞吐率：12.73req/s] [内存消耗：2,615.11kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011796s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.024998s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000688s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:34:11+08:00 ] 127.0.0.1 POST www.mall.com/api/member/getOrderAddress
+[运行时间：0.087208s] [吞吐率：11.47req/s] [内存消耗：2,691.25kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'getOrderAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '9',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ RUN ] app\Api\controller\Member->getOrderAddress[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010608s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_address` [ RunTime:0.024975s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_address` WHERE  `uid` = '1' LIMIT 1 [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_address` WHERE  `uid` = '1'  AND `default` = '1' LIMIT 1 [ RunTime:0.000813s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:34:14+08:00 ] 127.0.0.1 POST www.mall.com/api/member/cartlist
+[运行时间：0.074052s] [吞吐率：13.50req/s] [内存消耗：2,688.96kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'cartlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->cartlist[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010791s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cart` [ RunTime:0.024500s ]
+[ sql ] [ SQL ] SELECT `c`.`id`,`c`.`attrid`,`c`.`flag`,`c`.`num`,`a`.`attr_0`,`a`.`attr_1`,`a`.`price`,`a`.`stock`,`p`.`mainimage`,`p`.`title` FROM `qy_cart` `c` INNER JOIN `qy_product_attr` `a` ON `a`.`id`=`c`.`attrid` INNER JOIN `qy_product` `p` ON `p`.`id`=`a`.`product_id` WHERE  `c`.`uid` = 1 ORDER BY `c`.`id` ASC [ RunTime:0.001054s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:35:55+08:00 ] 127.0.0.1 POST www.mall.com/api/member/index
+[运行时间：0.097020s] [吞吐率：10.31req/s] [内存消耗：2,684.54kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->index[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011712s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_member` [ RunTime:0.027127s ]
+[ sql ] [ SQL ] SELECT `telphone`,`id`,`image`,`nickname` FROM `qy_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000857s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:35:55+08:00 ] 127.0.0.1 POST www.mall.com/api/member/savecart
+[运行时间：0.105339s] [吞吐率：9.49req/s] [内存消耗：2,685.08kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'savecart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '156',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'data' => '[{"num":"6","attrid":"79","flag":true},{"num":"7","attrid":"50","flag":true},{"num":"1","attrid":"71","flag":true}]',
+)
+[ info ] [ RUN ] app\Api\controller\Member->savecart[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001586s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cart` [ RunTime:0.041780s ]
+[ sql ] [ SQL ] DELETE FROM `qy_cart`    WHERE  `uid` = '1' [ RunTime:0.001135s ]
+[ sql ] [ SQL ] INSERT INTO `qy_cart` (`num` , `attrid` , `uid` , `flag`) VALUES ( '6','79',1,1 ) , ( '7','50',1,1 ) , ( '1','71',1,1 ) [ RunTime:0.000924s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:35:56+08:00 ] 127.0.0.1 POST www.mall.com/api/member/cartlist
+[运行时间：0.074967s] [吞吐率：13.34req/s] [内存消耗：2,688.96kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'cartlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->cartlist[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001249s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cart` [ RunTime:0.031255s ]
+[ sql ] [ SQL ] SELECT `c`.`id`,`c`.`attrid`,`c`.`flag`,`c`.`num`,`a`.`attr_0`,`a`.`attr_1`,`a`.`price`,`a`.`stock`,`p`.`mainimage`,`p`.`title` FROM `qy_cart` `c` INNER JOIN `qy_product_attr` `a` ON `a`.`id`=`c`.`attrid` INNER JOIN `qy_product` `p` ON `p`.`id`=`a`.`product_id` WHERE  `c`.`uid` = 1 ORDER BY `c`.`id` ASC [ RunTime:0.000968s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:35:57+08:00 ] 127.0.0.1 POST www.mall.com/api/member/savecart
+[运行时间：0.106789s] [吞吐率：9.36req/s] [内存消耗：2,685.16kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'savecart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '159',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NDM3MjI4N30.0DAefAiV7boWtnLa7eCUrnloTRRn7fCqRhXHHhlj8TU',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'data' => '[{"num":"6","attrid":"79","flag":"1"},{"num":"7","attrid":"50","flag":"1"},{"num":"1","attrid":"71","flag":"1"}]',
+)
+[ info ] [ RUN ] app\Api\controller\Member->savecart[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011578s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cart` [ RunTime:0.049772s ]
+[ sql ] [ SQL ] DELETE FROM `qy_cart`    WHERE  `uid` = '1' [ RunTime:0.000988s ]
+[ sql ] [ SQL ] INSERT INTO `qy_cart` (`num` , `attrid` , `uid` , `flag`) VALUES ( '6','79',1,'1' ) , ( '7','50',1,'1' ) , ( '1','71',1,'1' ) [ RunTime:0.000897s ]
+---------------------------------------------------------------
+[ 2020-03-16T22:35:57+08:00 ] 127.0.0.1 GET www.mall.com/api/index/cate
+[运行时间：0.154733s] [吞吐率：6.46req/s] [内存消耗：2,524.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->cate[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011504s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.052952s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.027940s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '1' LIMIT 5 [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '2' LIMIT 5 [ RunTime:0.001208s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '7' LIMIT 5 [ RunTime:0.001197s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '8' LIMIT 5 [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '29' LIMIT 5 [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '30' LIMIT 5 [ RunTime:0.001254s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '31' LIMIT 5 [ RunTime:0.002228s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '32' LIMIT 5 [ RunTime:0.001357s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '33' LIMIT 5 [ RunTime:0.001217s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '34' LIMIT 5 [ RunTime:0.001216s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '35' LIMIT 5 [ RunTime:0.001148s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '36' LIMIT 5 [ RunTime:0.001142s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '37' LIMIT 5 [ RunTime:0.001138s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '38' LIMIT 5 [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage` FROM `qy_product` WHERE  `pid` = '39' LIMIT 5 [ RunTime:0.001148s ]

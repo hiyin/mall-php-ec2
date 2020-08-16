@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="__LAYUI__/css/layui.css">
+    <link rel="stylesheet" href="__LAYUI__/css/view.css"/>
+    <link rel="stylesheet" href="__ADMIN__/css/view.css"/>
+    <title></title>
+</head>
+<body class="layui-view-body">
+    <form class="layui-form" action="" method="post" enctype="multipart/form-data">
+        <div class="layui-content">
+        <div class="layui-row">
+            <div class="layui-card">
+                <div class="layui-card-header">添加轮播</div>
+                  <div class="layui-form-item">
+                    <label class="layui-form-label">接口名称</label>
+                    <div class="layui-input-block">
+                      <input type="text" name="name"  placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                  </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">接口类型</label>
+                    <div class="layui-input-block">
+                        <select name="type">
+                            <option value="POST">POST</option>
+                            <option value="GET">GET</option>
+                        </select>
+                    </div>
+                </div>
+                  <div class="layui-form-item">
+                    <label class="layui-form-label">接口地址</label>
+                    <div class="layui-input-inline">
+                      <input type="type" name="url"  placeholder="请输入链接地址" autocomplete="off" class="layui-input">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">请输入接口地址</div>
+                  </div>
+
+                  <div class="layui-form-item layui-form-text">
+                    <label class="layui-form-label">接口参数</label>
+                    <div class="layui-input-block">
+                      <textarea name="param" placeholder="请输入内容" class="layui-textarea"></textarea>
+                    </div>
+                  </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">接口形式</label>
+                    <div class="layui-input-block">
+                        <input type="radio" name="place" value="1" title="移动端" checked>
+                        <input type="radio" name="place" value="2" title="电脑端">
+                    </div>
+                </div>
+                  <div class="layui-form-item">
+                    <div class="layui-input-block">
+                      <button class="layui-btn layui-btn-blue" lay-submit lay-filter="formDemo">立即提交</button>
+                      <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    </form>
+    <script src="__LAYUI__/layui.all.js"></script>
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/upload.js"></script>
+    <script>
+      var form = layui.form
+        ,layer = layui.layer;
+    </script>
+</body>
+</html>

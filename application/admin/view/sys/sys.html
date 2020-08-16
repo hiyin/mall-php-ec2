@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="__LAYUI__/css/layui.css">
+    <link rel="stylesheet" href="__LAYUI__/css/view.css"/>
+    <link rel="stylesheet" href="__ADMIN__/css/view.css"/>
+    <title></title>
+</head>
+<body class="layui-view-body">
+<form action="" method="post" class="layui-form" enctype="multipart/form-data">
+    <div class="layui-content">
+        <div class="layui-row">
+            <div class="layui-card">
+                <div class="layui-card-header">配置信息修改</div>
+                <form class="layui-form layui-card-body" action="">
+                    {volist name='sys' id='vo'}
+                        {if $vo.type==1}
+                          <div class="layui-form-item">
+                            <label class="layui-form-label">{$vo.cnname}</label>
+                            <div class="layui-input-block">
+                              <input type="text" value="{$vo.result}" name="{$vo.enname}" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                            </div>
+                          </div>
+                        {elseif $vo.type==2}
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">{$vo.cnname}</label>
+                            <div class="layui-input-block">
+                                <input type="radio" name="{$vo.enname}" value="1" title="显示" {if $vo.result==1}checked{/if}>
+                                <input type="radio" name="{$vo.enname}" value="0" title="隐藏" {if $vo.result==0}checked{/if}>
+                            </div>
+                        </div>
+                        {elseif $vo.type==5}
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">{$vo.cnname}</label>
+                            <div class="layui-input-block">
+                                <textarea name="{$vo.enname}"  placeholder="请输入内容" class="layui-textarea">{$vo.result}</textarea>
+                            </div>
+                        </div>
+                        {elseif $vo.type==6}
+                        <div class="layui-form-item">
+                        <label class="layui-form-label">{$vo.cnname}</label>
+                        <div class="layui-input-block" style="position: relative">
+                            <input type='file' id='doc' name='{$vo.enname}' style='opacity:0;width:100px;height: 100px;position: absolute;'>
+                            <input type="hidden" name="image[]" value="{$vo.enname}"/>
+                            <table style="width:102px;height:102px;border:1px solid #e6e6e6" id="localImag">
+                                <tr>
+                                    <td>
+                                        <img  id="preview" alt="" src="__PUBLIC__/image/upload.png" >
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        </div>
+                         {/if}
+                    {/volist}
+
+                  <div class="layui-form-item">
+                    <div class="layui-input-block">
+                      <button class="layui-btn layui-btn-blue" lay-submit lay-filter="formDemo">立即提交</button>
+                      <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                  </div>
+                </form>  
+            </div>
+        </div>
+    </div>
+</form>
+    <script src="__LAYUI__/layui.all.js"></script>
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/upload.js"></script>
+    <script>
+      var form = layui.form
+        ,layer = layui.layer;
+    </script>
+</body>
+</html>

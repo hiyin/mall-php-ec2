@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="post">
+    <input type="text" name="username" value="" class="username"/>
+    <input type="text" name="password" value="" class="password"/>
+    <input type="text" name="code" value="" class="code">
+    <!--<img src="{:captcha_src()}">-->
+    <img src="http://www.mymall.com/captcha.html" alt="">
+
+    <input type="button" value="提交" class="btn">
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script>
+        $(function () {
+            $(".btn").click(function () {
+                $.ajax({
+                    url:'http://www.mymall.com/api/register/ajaxRegister',
+                    dataType:'json',
+                    method:'POST',
+                    data:{
+                        username:$(".username").val(),
+                        password:$(".password").val(),
+                        code:$(".code").val(),
+                    },
+                    success:function (res) {
+                        console.log(res);
+                    }
+                })
+            })
+        })
+
+
+    </script>
+</form>
+</body>
+</html>

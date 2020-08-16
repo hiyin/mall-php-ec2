@@ -1,0 +1,2486 @@
+---------------------------------------------------------------
+[ 2020-03-27T06:43:08+08:00 ] 127.0.0.1 GET www.mall.com/api/index
+[运行时间：0.582832s] [吞吐率：1.72req/s] [内存消耗：2,556.42kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'user-agent' => 'letv x500(Android/5.1.1) (uni.UNI4B45664/1.0.0) Weex/0.26.0 720x1280',
+  'host' => 'www.mall.com',
+  'accept-encoding' => 'gzip',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->index[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003534s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_banner` [ RunTime:0.067870s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_banner` [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_active` [ RunTime:0.030106s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_active` [ RunTime:0.001099s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_icon` [ RunTime:0.026000s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_icon` [ RunTime:0.002062s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_floor` [ RunTime:0.027885s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_floor` [ RunTime:0.002868s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.028160s ]
+[ sql ] [ SQL ] SELECT `id`,`catename` FROM `qy_cate` WHERE  `recommend` = 1 LIMIT 4 [ RunTime:0.004738s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate_content` [ RunTime:0.025642s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '1' [ RunTime:0.001310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.032283s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '1' LIMIT 6 [ RunTime:0.001364s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '2' [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '2' LIMIT 6 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '7' [ RunTime:0.003527s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '7' LIMIT 6 [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '8' [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '8' LIMIT 6 [ RunTime:0.001019s ]
+---------------------------------------------------------------
+[ 2020-03-27T06:59:05+08:00 ] 127.0.0.1 GET www.mall.com/api/index
+[运行时间：0.214494s] [吞吐率：4.66req/s] [内存消耗：2,556.88kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'user-agent' => 'letv x500(Android/5.1.1) (io.dcloud.HBuilder/9.6.48) Weex/0.26.0 720x1280',
+  'host' => 'www.mall.com',
+  'accept-encoding' => 'gzip',
+  'cookie' => 'ASP.NET_SessionId=t2bbn33wwn3kym5yx1vxdpbd',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->index[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011500s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_banner` [ RunTime:0.016220s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_banner` [ RunTime:0.002787s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_active` [ RunTime:0.020393s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_active` [ RunTime:0.001289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_icon` [ RunTime:0.019949s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_icon` [ RunTime:0.001182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_floor` [ RunTime:0.015910s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_floor` [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.021720s ]
+[ sql ] [ SQL ] SELECT `id`,`catename` FROM `qy_cate` WHERE  `recommend` = 1 LIMIT 4 [ RunTime:0.002724s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate_content` [ RunTime:0.020258s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '1' [ RunTime:0.001046s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.016370s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '1' LIMIT 6 [ RunTime:0.001166s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '2' [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '2' LIMIT 6 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '7' [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '7' LIMIT 6 [ RunTime:0.002608s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '8' [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '8' LIMIT 6 [ RunTime:0.000722s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:00:48+08:00 ] 127.0.0.1 GET www.mall.com/api/index
+[运行时间：0.240942s] [吞吐率：4.15req/s] [内存消耗：2,556.43kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'user-agent' => 'letv x500(Android/5.1.1) (com.intewl.www/1.0.0) Weex/0.26.0 720x1280',
+  'host' => 'www.mall.com',
+  'accept-encoding' => 'gzip',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->index[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001614s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_banner` [ RunTime:0.032594s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_banner` [ RunTime:0.001059s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_active` [ RunTime:0.021607s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_active` [ RunTime:0.002072s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_icon` [ RunTime:0.022061s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_icon` [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_floor` [ RunTime:0.030183s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_floor` [ RunTime:0.001116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.021240s ]
+[ sql ] [ SQL ] SELECT `id`,`catename` FROM `qy_cate` WHERE  `recommend` = 1 LIMIT 4 [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate_content` [ RunTime:0.028141s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '1' [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.019888s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '1' LIMIT 6 [ RunTime:0.001216s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '2' [ RunTime:0.002474s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '2' LIMIT 6 [ RunTime:0.002870s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '7' [ RunTime:0.001518s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '7' LIMIT 6 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '8' [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '8' LIMIT 6 [ RunTime:0.000648s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:00:50+08:00 ] 127.0.0.1 POST www.mall.com/api/member/index
+[运行时间：0.052847s] [吞吐率：18.92req/s] [内存消耗：1,757.99kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'user-agent' => 'letv x500(Android/5.1.1) (com.intewl.www/1.0.0) Weex/0.26.0 720x1280',
+  'token' => '',
+  'host' => 'www.mall.com',
+  'accept-encoding' => 'gzip',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->index[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-27T07:28:13+08:00 ] 127.0.0.1 GET www.mall.com/api/index
+[运行时间：0.162865s] [吞吐率：6.14req/s] [内存消耗：2,556.79kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->index[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001375s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_banner` [ RunTime:0.019943s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_banner` [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_active` [ RunTime:0.015030s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_active` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_icon` [ RunTime:0.013914s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_icon` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_floor` [ RunTime:0.014693s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_floor` [ RunTime:0.000772s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.013932s ]
+[ sql ] [ SQL ] SELECT `id`,`catename` FROM `qy_cate` WHERE  `recommend` = 1 LIMIT 4 [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate_content` [ RunTime:0.013964s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '1' [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.014334s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '1' LIMIT 6 [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '2' [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '2' LIMIT 6 [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '7' [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '7' LIMIT 6 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '8' [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '8' LIMIT 6 [ RunTime:0.000696s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:28:22+08:00 ] 127.0.0.1 GET www.mall.com/api/index/detail/id/38
+[运行时间：0.209391s] [吞吐率：4.78req/s] [内存消耗：2,544.89kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '38',
+)
+[ info ] [ RUN ] app\Api\controller\Index->detail[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012427s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.016189s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.009980s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_attr` [ RunTime:0.028887s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_attr` WHERE  `product_id` = 38 [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_image` [ RunTime:0.014473s ]
+[ sql ] [ SQL ] SELECT othermain as image FROM `qy_product_image` WHERE  `product_id` = 38 [ RunTime:0.012032s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_spec` [ RunTime:0.015763s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_spec` WHERE  `product_id` = '38' [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_attr` [ RunTime:0.020050s ]
+[ sql ] [ SQL ] SELECT `attrname` FROM `qy_attr` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT `attrname` FROM `qy_attr` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_service` [ RunTime:0.015814s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_service` WHERE  `id` IN (1,3,5) [ RunTime:0.014832s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:28:24+08:00 ] 127.0.0.1 POST www.mall.com/api/member/getBuyShopInfo
+[运行时间：0.116560s] [吞吐率：8.58req/s] [内存消耗：1,902.44kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'getBuyShopInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '38',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NTEzODg1Mn0.o7K8YNKdcZgmz4fgXscZgpkG2iUv1gOwRlhsYKNVzOA',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'data' => '[{"num":1,"attrid":50}]',
+)
+[ info ] [ RUN ] app\Api\controller\Member->getBuyShopInfo[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-27T07:28:24+08:00 ] 127.0.0.1 POST www.mall.com/api/member/getOrderAddress
+[运行时间：0.058611s] [吞吐率：17.06req/s] [内存消耗：1,902.34kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'getOrderAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '9',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NTEzODg1Mn0.o7K8YNKdcZgmz4fgXscZgpkG2iUv1gOwRlhsYKNVzOA',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ RUN ] app\Api\controller\Member->getOrderAddress[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-27T07:28:25+08:00 ] 127.0.0.1 POST www.mall.com/api/member/getOrderAddress
+[运行时间：0.105765s] [吞吐率：9.45req/s] [内存消耗：2,707.88kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'getOrderAddress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '9',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NTI2ODkwNH0.jiKvFtCI3PkFYsJIxf7wYN2I5_iLs8KweamNonq-1z0',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ RUN ] app\Api\controller\Member->getOrderAddress[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001360s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_address` [ RunTime:0.038915s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_address` WHERE  `uid` = '1' LIMIT 1 [ RunTime:0.027539s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_address` WHERE  `uid` = '1'  AND `default` = '1' LIMIT 1 [ RunTime:0.001255s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:28:25+08:00 ] 127.0.0.1 POST www.mall.com/api/member/getBuyShopInfo
+[运行时间：0.113808s] [吞吐率：8.79req/s] [内存消耗：2,709.77kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'getBuyShopInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '38',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NTI2ODkwNH0.jiKvFtCI3PkFYsJIxf7wYN2I5_iLs8KweamNonq-1z0',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'data' => '[{"num":1,"attrid":50}]',
+)
+[ info ] [ RUN ] app\Api\controller\Member->getBuyShopInfo[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001275s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_attr` [ RunTime:0.021002s ]
+[ sql ] [ SQL ] SELECT `p`.`title`,`p`.`mainimage`,`a`.* FROM `qy_product_attr` `a` INNER JOIN `qy_product` `p` ON `a`.`product_id`=`p`.`id` WHERE  `a`.`id` = 50 LIMIT 1 [ RunTime:0.003420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_logistics` [ RunTime:0.050909s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_logistics` [ RunTime:0.001094s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:28:29+08:00 ] 127.0.0.1 POST www.mall.com/api/member/order
+[运行时间：0.146239s] [吞吐率：6.84req/s] [内存消耗：2,734.70kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '98',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NTI2ODkwNH0.jiKvFtCI3PkFYsJIxf7wYN2I5_iLs8KweamNonq-1z0',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'orderShop' => '[{"num":1,"attrid":50}]',
+  'addressid' => 51,
+  'price' => 3009,
+  'logistics' => 1,
+  'message' => '',
+)
+[ info ] [ RUN ] app\Api\controller\Member->order[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001161s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_attr` [ RunTime:0.013566s ]
+[ sql ] [ SQL ] SELECT `price` FROM `qy_product_attr` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_logistics` [ RunTime:0.013299s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_logistics` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_address` [ RunTime:0.014668s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_address` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.061985s ]
+[ sql ] [ SQL ] INSERT INTO `qy_order` (`uid` , `ordernum` , `attrid` , `number` , `price` , `allprice` , `time` , `logistics` , `logisticsprice` , `username` , `telphone` , `city` , `address` , `message` , `status`) VALUES ('1' , 2.0200327158527E+17 , '50' , '1' , '2999' , '3009' , '1585265309' , '圆通快递' , '10' , 'intewl' , '18055654585' , '北京北京市大兴区' , '123123' , '' , 1) [ RunTime:0.002995s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:28:30+08:00 ] 127.0.0.1 POST www.mall.com/api/member/payinfo
+[运行时间：0.068550s] [吞吐率：14.59req/s] [内存消耗：2,705.41kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'payinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'content-length' => '12',
+  'token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjEsImV4cGlyZSI6MTU4NTI2ODkwNH0.jiKvFtCI3PkFYsJIxf7wYN2I5_iLs8KweamNonq-1z0',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '130',
+)
+[ info ] [ RUN ] app\Api\controller\Member->payinfo[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010837s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.013785s ]
+[ sql ] [ SQL ] SELECT `id`,`ordernum`,`allprice`,time as start_time FROM `qy_order` WHERE  `id` = 130 LIMIT 1 [ RunTime:0.000637s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:28:31+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay?orderid130
+[运行时间：0.186270s] [吞吐率：5.37req/s] [内存消耗：2,616.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'orderid130' => '',
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010797s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.020389s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_order` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] UPDATE `qy_order`  SET `status`=2,`paytype`='1',`paytime`='1585265311'  WHERE  `ordernum` = 0 [ RunTime:0.001257s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:29:19+08:00 ] 127.0.0.1 GET www.mall.com/admin
+[运行时间：0.144727s] [吞吐率：6.91req/s] [内存消耗：1,727.64kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-27T07:29:20+08:00 ] 127.0.0.1 GET www.mall.com/admin/login/index.html
+[运行时间：0.123883s] [吞吐率：8.07req/s] [内存消耗：1,710.92kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpStudy\WWW\mall\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-27T07:29:21+08:00 ] 127.0.0.1 GET www.mall.com/captcha.html
+[运行时间：0.157261s] [吞吐率：6.36req/s] [内存消耗：1,409.13kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\mall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-27T07:29:29+08:00 ] 127.0.0.1 POST www.mall.com/admin/login/ajaxlogin.html
+[运行时间：0.035027s] [吞吐率：28.55req/s] [内存消耗：1,701.48kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'ajaxlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mall.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mall.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => 'e4dj',
+)
+[ info ] [ RUN ] app\admin\controller\Login->ajaxLogin[ D:\phpStudy\WWW\mall\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-27T07:29:29+08:00 ] 127.0.0.1 GET www.mall.com/captcha.html?
+[运行时间：0.026546s] [吞吐率：37.67req/s] [内存消耗：1,409.12kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\mall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-27T07:29:31+08:00 ] 127.0.0.1 GET www.mall.com/captcha.html??
+[运行时间：0.022722s] [吞吐率：44.01req/s] [内存消耗：1,409.34kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '?' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\mall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-27T07:29:32+08:00 ] 127.0.0.1 GET www.mall.com/captcha.html???
+[运行时间：0.022565s] [吞吐率：44.32req/s] [内存消耗：1,409.33kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '??' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\mall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-27T07:29:32+08:00 ] 127.0.0.1 GET www.mall.com/captcha.html????
+[运行时间：0.030844s] [吞吐率：32.42req/s] [内存消耗：1,409.32kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '???' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\mall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-27T07:29:33+08:00 ] 127.0.0.1 GET www.mall.com/captcha.html?????
+[运行时间：0.023918s] [吞吐率：41.81req/s] [内存消耗：1,409.31kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  '????' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpStudy\WWW\mall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-27T07:29:38+08:00 ] 127.0.0.1 POST www.mall.com/admin/login/ajaxlogin.html
+[运行时间：0.059717s] [吞吐率：16.75req/s] [内存消耗：2,502.46kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'ajaxlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mall.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mall.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => 'tdqm',
+)
+[ info ] [ RUN ] app\admin\controller\Login->ajaxLogin[ D:\phpStudy\WWW\mall\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011550s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_admin` [ RunTime:0.014588s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000686s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:29:38+08:00 ] 127.0.0.1 GET www.mall.com/admin/index/index.html
+[运行时间：0.157612s] [吞吐率：6.34req/s] [内存消耗：2,606.23kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\mall\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\index\index.html [ array (
+  0 => 'rulesName',
+  1 => 'username',
+  2 => 'userid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011207s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_group_access` [ RunTime:0.017178s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `qy_auth_group_access` `auth_group_access` INNER JOIN `qy_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = 37 [ RunTime:0.002203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_rule` [ RunTime:0.016770s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001182s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 78 LIMIT 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.001036s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 54 LIMIT 1 [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.000984s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 69 LIMIT 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 70 LIMIT 1 [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 72 LIMIT 1 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.000524s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:29:39+08:00 ] 127.0.0.1 GET www.mall.com/admin/index/console.html
+[运行时间：0.238630s] [吞吐率：4.19req/s] [内存消耗：2,567.41kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'console',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->console[ D:\phpStudy\WWW\mall\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\index\console.html [ array (
+  0 => 'rulesName',
+  1 => 'articleNum',
+  2 => 'todayArticle',
+  3 => 'productNum',
+  4 => 'todayProduct',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002149s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_group_access` [ RunTime:0.016366s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `qy_auth_group_access` `auth_group_access` INNER JOIN `qy_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = 37 [ RunTime:0.001247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_rule` [ RunTime:0.016519s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.001085s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.001394s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.002052s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 78 LIMIT 1 [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.001895s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 54 LIMIT 1 [ RunTime:0.001056s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.001470s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.001602s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 69 LIMIT 1 [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 70 LIMIT 1 [ RunTime:0.000781s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 72 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.001487s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.001562s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_article` [ RunTime:0.017466s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_article` LIMIT 1 [ RunTime:0.033153s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_article` WHERE  `data` BETWEEN '1585238400' AND '1585324800' LIMIT 1 [ RunTime:0.010442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.021213s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` LIMIT 1 [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `data` BETWEEN '1585238400' AND '1585324800' LIMIT 1 [ RunTime:0.000985s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:29:41+08:00 ] 127.0.0.1 GET www.mall.com/admin/pay/index.html
+[运行时间：0.204847s] [吞吐率：4.88req/s] [内存消耗：2,562.66kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Pay->index[ D:\phpStudy\WWW\mall\application\admin\controller\Pay.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\pay\index.html [ array (
+  0 => 'rulesName',
+  1 => 'pay',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011275s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_group_access` [ RunTime:0.016274s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `qy_auth_group_access` `auth_group_access` INNER JOIN `qy_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = 37 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_rule` [ RunTime:0.016567s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 78 LIMIT 1 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.001123s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 54 LIMIT 1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 69 LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 70 LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 72 LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.034902s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.008285s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:31:02+08:00 ] 127.0.0.1 GET www.mall.com/admin/pay/index.html
+[运行时间：0.181856s] [吞吐率：5.50req/s] [内存消耗：2,714.07kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Pay->index[ D:\phpStudy\WWW\mall\application\admin\controller\Pay.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\pay\index.html [ array (
+  0 => 'rulesName',
+  1 => 'pay',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011096s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_group_access` [ RunTime:0.026000s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `qy_auth_group_access` `auth_group_access` INNER JOIN `qy_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = 37 [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_rule` [ RunTime:0.016823s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 78 LIMIT 1 [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 54 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 69 LIMIT 1 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 70 LIMIT 1 [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 72 LIMIT 1 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.017196s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000627s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:31:38+08:00 ] 127.0.0.1 GET www.mall.com/admin/pay/index.html
+[运行时间：0.131060s] [吞吐率：7.63req/s] [内存消耗：2,714.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Pay->index[ D:\phpStudy\WWW\mall\application\admin\controller\Pay.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\pay\index.html [ array (
+  0 => 'rulesName',
+  1 => 'pay',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011196s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_group_access` [ RunTime:0.014224s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `qy_auth_group_access` `auth_group_access` INNER JOIN `qy_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = 37 [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_rule` [ RunTime:0.014199s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 78 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 54 LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 69 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 70 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 72 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.014196s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000581s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:32:51+08:00 ] 127.0.0.1 GET www.mall.com/admin/pay/index.html
+[运行时间：0.164822s] [吞吐率：6.07req/s] [内存消耗：2,714.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Pay->index[ D:\phpStudy\WWW\mall\application\admin\controller\Pay.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\pay\index.html [ array (
+  0 => 'rulesName',
+  1 => 'pay',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012133s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_group_access` [ RunTime:0.015345s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `qy_auth_group_access` `auth_group_access` INNER JOIN `qy_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = 37 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_rule` [ RunTime:0.015346s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 78 LIMIT 1 [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 54 LIMIT 1 [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 69 LIMIT 1 [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 70 LIMIT 1 [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 72 LIMIT 1 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.013920s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000927s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:33:20+08:00 ] 127.0.0.1 GET www.mall.com/admin/pay/index.html
+[运行时间：0.129919s] [吞吐率：7.70req/s] [内存消耗：2,714.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Pay->index[ D:\phpStudy\WWW\mall\application\admin\controller\Pay.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\pay\index.html [ array (
+  0 => 'rulesName',
+  1 => 'pay',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010652s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_group_access` [ RunTime:0.013784s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `qy_auth_group_access` `auth_group_access` INNER JOIN `qy_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = 37 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_rule` [ RunTime:0.013352s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 78 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 54 LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 69 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 70 LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 72 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.027582s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000561s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:33:44+08:00 ] 127.0.0.1 GET www.mall.com/admin/pay/index.html
+[运行时间：0.169023s] [吞吐率：5.92req/s] [内存消耗：2,714.10kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Pay->index[ D:\phpStudy\WWW\mall\application\admin\controller\Pay.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\pay\index.html [ array (
+  0 => 'rulesName',
+  1 => 'pay',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001402s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_group_access` [ RunTime:0.014895s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `qy_auth_group_access` `auth_group_access` INNER JOIN `qy_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = 37 [ RunTime:0.001156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_rule` [ RunTime:0.015482s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001070s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001098s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.000997s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001069s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 78 LIMIT 1 [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000928s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.001028s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.001036s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.001088s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 54 LIMIT 1 [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000905s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.001026s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000984s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.001006s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.001038s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 69 LIMIT 1 [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 70 LIMIT 1 [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 72 LIMIT 1 [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.001126s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.001019s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.015357s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001162s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:33:55+08:00 ] 127.0.0.1 GET www.mall.com/admin/pay/index.html
+[运行时间：0.146300s] [吞吐率：6.84req/s] [内存消耗：2,714.14kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Pay->index[ D:\phpStudy\WWW\mall\application\admin\controller\Pay.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\pay\index.html [ array (
+  0 => 'rulesName',
+  1 => 'pay',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012073s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_group_access` [ RunTime:0.019451s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `qy_auth_group_access` `auth_group_access` INNER JOIN `qy_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = 37 [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_rule` [ RunTime:0.014153s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 78 LIMIT 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 54 LIMIT 1 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 69 LIMIT 1 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 70 LIMIT 1 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 72 LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.014146s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000676s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:33:57+08:00 ] 127.0.0.1 GET www.mall.com/admin/index/index.html
+[运行时间：0.128068s] [吞吐率：7.81req/s] [内存消耗：2,606.43kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\mall\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\index\index.html [ array (
+  0 => 'rulesName',
+  1 => 'username',
+  2 => 'userid',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011364s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_group_access` [ RunTime:0.015259s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `qy_auth_group_access` `auth_group_access` INNER JOIN `qy_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = 37 [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_rule` [ RunTime:0.016077s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 78 LIMIT 1 [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 54 LIMIT 1 [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 69 LIMIT 1 [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 70 LIMIT 1 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 72 LIMIT 1 [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.000744s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:33:58+08:00 ] 127.0.0.1 GET www.mall.com/admin/index/console.html
+[运行时间：0.163992s] [吞吐率：6.10req/s] [内存消耗：2,567.41kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'console',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mall.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->console[ D:\phpStudy\WWW\mall\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\mall\public/../application/admin\view\index\console.html [ array (
+  0 => 'rulesName',
+  1 => 'articleNum',
+  2 => 'todayArticle',
+  3 => 'productNum',
+  4 => 'todayProduct',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011353s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_group_access` [ RunTime:0.015560s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `qy_auth_group_access` `auth_group_access` INNER JOIN `qy_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = 37 [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_auth_rule` [ RunTime:0.015544s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 32 LIMIT 1 [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 79 LIMIT 1 [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 78 LIMIT 1 [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 21 LIMIT 1 [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 37 LIMIT 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 49 LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 51 LIMIT 1 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 52 LIMIT 1 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 54 LIMIT 1 [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 56 LIMIT 1 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 57 LIMIT 1 [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 58 LIMIT 1 [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 59 LIMIT 1 [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 61 LIMIT 1 [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 62 LIMIT 1 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 63 LIMIT 1 [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 64 LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 67 LIMIT 1 [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 68 LIMIT 1 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 69 LIMIT 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 70 LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 71 LIMIT 1 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 72 LIMIT 1 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 74 LIMIT 1 [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 75 LIMIT 1 [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 76 LIMIT 1 [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT `name` FROM `qy_auth_rule` WHERE  `id` = 77 LIMIT 1 [ RunTime:0.001081s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_article` [ RunTime:0.015792s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_article` LIMIT 1 [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_article` WHERE  `data` BETWEEN '1585238400' AND '1585324800' LIMIT 1 [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.015790s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` LIMIT 1 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `data` BETWEEN '1585238400' AND '1585324800' LIMIT 1 [ RunTime:0.000700s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:38:52+08:00 ] 127.0.0.1 POST www.mall.com/api/member/index
+[运行时间：0.036991s] [吞吐率：27.03req/s] [内存消耗：1,757.99kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/json',
+  'user-agent' => 'letv x500(Android/5.1.1) (com.intewl.www/1.0.0) Weex/0.26.0 720x1280',
+  'token' => '',
+  'host' => 'www.mall.com',
+  'accept-encoding' => 'gzip',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Member->index[ D:\phpStudy\WWW\mall\application\Api\controller\Member.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-27T07:43:49+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay?orderid130
+[运行时间：0.077911s] [吞吐率：12.84req/s] [内存消耗：2,624.54kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'orderid130' => '',
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001085s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.014468s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_order` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.013888s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000827s ]
+[ sql ] [ SQL ] UPDATE `qy_order`  SET `status`=2,`paytype`='1',`paytime`='1585266229'  WHERE  `ordernum` = 0 [ RunTime:0.000711s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:44:28+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay?orderid130
+[运行时间：0.082100s] [吞吐率：12.18req/s] [内存消耗：2,624.62kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'orderid130' => '',
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011173s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.013912s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_order` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.013749s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000967s ]
+[ sql ] [ SQL ] UPDATE `qy_order`  SET `status`=2,`paytype`='1',`paytime`='1585266268'  WHERE  `ordernum` = 0 [ RunTime:0.000802s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:46:50+08:00 ] 127.0.0.1 GET www.mall.com/
+[运行时间：0.034545s] [吞吐率：28.95req/s] [内存消耗：1,628.12kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\WWW\mall\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-27T07:46:56+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.121405s] [吞吐率：8.24req/s] [内存消耗：2,625.42kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010953s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.016203s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_order` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.016093s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] UPDATE `qy_order`  SET `status`=2,`paytype`='1',`paytime`='1585266416'  WHERE  `ordernum` = 0 [ RunTime:0.000897s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:47:24+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.109922s] [吞吐率：9.10req/s] [内存消耗：2,625.65kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011249s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.028922s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_order` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.016594s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000836s ]
+[ sql ] [ SQL ] UPDATE `qy_order`  SET `status`=2,`paytype`='1',`paytime`='1585266444'  WHERE  `ordernum` = 0 [ RunTime:0.000567s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:47:24+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.080372s] [吞吐率：12.44req/s] [内存消耗：2,625.65kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001318s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.018140s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_order` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.016793s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000842s ]
+[ sql ] [ SQL ] UPDATE `qy_order`  SET `status`=2,`paytype`='1',`paytime`='1585266444'  WHERE  `ordernum` = 0 [ RunTime:0.000677s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:47:25+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay
+[运行时间：0.105242s] [吞吐率：9.50req/s] [内存消耗：2,625.65kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011706s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.028441s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_order` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.002028s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.018374s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001174s ]
+[ sql ] [ SQL ] UPDATE `qy_order`  SET `status`=2,`paytype`='1',`paytime`='1585266445'  WHERE  `ordernum` = 0 [ RunTime:0.000958s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:47:51+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay?orderid=126
+[运行时间：0.093815s] [吞吐率：10.66req/s] [内存消耗：2,625.73kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'orderid' => '126',
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011470s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.016900s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_order` WHERE  `id` = 126 LIMIT 1 [ RunTime:0.001127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.015865s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001538s ]
+[ sql ] [ SQL ] UPDATE `qy_order`  SET `status`=2,`paytype`='1',`paytime`='1585266471'  WHERE  `ordernum` = 0 [ RunTime:0.000947s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:48:24+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay?orderid=126
+[运行时间：0.094889s] [吞吐率：10.54req/s] [内存消耗：2,625.98kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'orderid' => '126',
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011686s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.023292s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_order` WHERE  `id` = 126 LIMIT 1 [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.015637s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000950s ]
+[ sql ] [ SQL ] UPDATE `qy_order`  SET `status`=2,`paytype`='1',`paytime`='1585266504'  WHERE  `ordernum` = 0 [ RunTime:0.000820s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:48:50+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay?orderid130
+[运行时间：0.102923s] [吞吐率：9.72req/s] [内存消耗：2,624.40kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'orderid130' => '',
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010637s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.029906s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_order` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.013580s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000896s ]
+[ sql ] [ SQL ] UPDATE `qy_order`  SET `status`=2,`paytype`='1',`paytime`='1585266530'  WHERE  `ordernum` = 0 [ RunTime:0.000728s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:49:02+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay?orderid130
+[运行时间：0.087208s] [吞吐率：11.47req/s] [内存消耗：2,624.34kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'content-type' => 'application/json',
+  'accept' => '*/*',
+  'user-agent' => 'iPhone7,2(iOS/9.1) Uninview(Uninview/1.0.0) Weex/0.26.0 750x1334',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'orderid130' => '',
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010159s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.014964s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_order` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.014361s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] UPDATE `qy_order`  SET `status`=2,`paytype`='1',`paytime`='1585266542'  WHERE  `ordernum` = 0 [ RunTime:0.000555s ]
+---------------------------------------------------------------
+[ 2020-03-27T07:49:43+08:00 ] 127.0.0.1 GET www.mall.com/api/pay/alipay?orderid=126
+[运行时间：0.090823s] [吞吐率：11.01req/s] [内存消耗：2,625.76kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'pay',
+    2 => 'alipay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=erao0fj9uv8nffffhge775if21',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'orderid' => '126',
+)
+[ info ] [ RUN ] app\Api\controller\Pay->alipay[ D:\phpStudy\WWW\mall\application\Api\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011559s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_order` [ RunTime:0.016905s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_order` WHERE  `id` = 126 LIMIT 1 [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_pay` [ RunTime:0.016836s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_pay` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000807s ]
+[ sql ] [ SQL ] UPDATE `qy_order`  SET `status`=2,`paytype`='1',`paytime`='1585266583'  WHERE  `ordernum` = 0 [ RunTime:0.000812s ]

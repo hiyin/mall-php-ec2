@@ -1,0 +1,74 @@
+<!--顶部开始-->
+<div class="head_main">
+    <div class="head_main_nav" aos="fade-down" aos-easing="ease" aos-duration="700" aos-delay="100">
+        <div class="w1200">
+            <div class="wa_left left">
+                <div id="logo" class="logo left">
+                    <a href="#" title="这里是您的网站名称"><img src="__UPLOADS__/{$sys.logo}" alt="这里是您的网站名称"></a>
+                </div>
+            </div>
+            <!--搜索栏开始-->
+            <div class="right" id="rikj">
+                <div class="box left">
+                    <div class="demo header-button" id="toggle-search">
+                        <a href="javascript:;" class="bounceIn" title="搜索"><span></span></a>
+                    </div>
+                    <form id="search-form" action="#" method="get" onsubmit="return checksearch(this)">
+                        <fieldset><input class="stxt" type="text" name="key" value="请输入关键字"
+                                         onfocus="if(this.value==defaultValue)this.value=''"
+                                         onblur="if(this.value=='')this.value=defaultValue"/></fieldset>
+                        <input type="submit" class="s_btn left" value="搜 索"/>
+                    </form>
+                </div>
+            </div>
+            <!--顶部导航开始-->
+            <div class="wa_right right">
+                <ul class="nav" id="nav">
+                    <li id="cur">
+                        <a href="{:url('index/Index/index')}" title="首页">首页<i></i></a>
+                    </li>
+                    {volist name='menu' id='vo'}
+                    <li>
+                        {switch name="$vo.catetype"}
+                        {case value="1"}
+                        <a href="{:url('index/Newlist/index',array('id'=>$vo.id))}" title="{$vo.catename}">{$vo.catename}</a>
+                        {/case}
+                        {case value="2"}
+                        <a href="{:url('index/Detail/index',array('id'=>$vo.id))}" title="{$vo.catename}">{$vo.catename}</a>
+                        {/case}
+                        {case value="3"}
+                        <a href="{:url('index/Detail/index',array('type'=>'page','id'=>$vo.id))}" title="{$vo.catename}">{$vo.catename}</a>
+                        {/case}
+                        {case value="4"}
+                        <a href="#">{$vo.catename}</a>
+                        {/case}
+                        {/switch}
+
+                        <ul>
+                            {volist name='$vo.child' id='child'}
+                            <li>
+                                {switch name="$child.catetype"}
+                                    {case value="1"}
+                                    <a href="{:url('index/Newlist/index',array('id'=>$child.id))}" title="{$child.catename}">{$child.catename}</a>
+                                    {/case}
+                                    {case value="2"}
+                                    <a href="{:url('index/Detail/index',array('id'=>$child.id))}" title="{$child.catename}">{$child.catename}</a>
+                                    {/case}
+                                    {case value="3"}
+                                    <a href="{:url('index/Detail/index',array('id'=>$child.id,'type'=>'page'))}" title="{$child.catename}">{$child.catename}</a>
+                                    {/case}
+                                    {case value="4"}
+                                    <a href="#">{$child.catename}</a>
+                                    {/case}
+                                {/switch}
+                            </li>
+                            {/volist}
+                        </ul>
+                    </li>
+                    {/volist}
+                </ul>
+            </div>
+            <!--顶部导航结束-->
+        </div>
+    </div>
+</div>

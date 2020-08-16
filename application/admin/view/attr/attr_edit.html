@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="__LAYUI__/css/layui.css">
+    <link rel="stylesheet" href="__LAYUI__/css/view.css"/>
+    <link rel="stylesheet" href="__ADMIN__/css/view.css"/>
+    <title></title>
+</head>
+<body class="layui-view-body">
+    <form class="layui-form" action="" method="post" enctype="multipart/form-data">
+        <div class="layui-content">
+        <div class="layui-row">
+            <div class="layui-card">
+                <div class="layui-card-header">添加属性</div>
+                  <div class="layui-form-item" >
+                    <label class="layui-form-label">属性名称</label>
+                    <div class="layui-input-block">
+                      <input type="text" name="attrname" value="{$attr.attrname}"  placeholder="请输入标题" autocomplete="off" class="layui-input">
+                    </div>
+                  </div>
+                <div class="layui-form-item" >
+                    <label class="layui-form-label">英文名称</label>
+                    <div class="layui-input-inline">
+                        <input type="text" name="attr_en_name" value="{$attr.attr_en_name}"  placeholder="请输入英文名称" autocomplete="off" class="layui-input">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">必填,用于商品属性区分</div>
+                </div>
+                  <div class="layui-form-item">
+                    <label class="layui-form-label">属性值</label>
+                      <div class="layui-input-block">
+                          <textarea name="attrvalue" placeholder="多个参数用|分隔" class="layui-textarea">{$attr.attrvalue}</textarea>
+                      </div>
+                  </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">属性分类</label>
+                    <div class="layui-input-inline" >
+                        <select lay-filter="first" name="cateid">
+                            <option value="0"></option>
+                            {volist name="cate" id="vo"}
+                            <option value="{$vo.id}" {if $vo.id==$attr.cateid}selected{/if}>{$vo.catename}</option>
+                            {/volist}
+                        </select>
+                    </div>
+
+                </div>
+
+                  <div class="layui-form-item">
+                    <div class="layui-input-block">
+                      <button class="layui-btn layui-btn-blue" lay-submit lay-filter="formDemo">立即提交</button>
+                      <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    </form>
+    <script src="__LAYUI__/layui.all.js"></script>
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/upload.js"></script>
+    <script>
+      var form = layui.form
+        ,layer = layui.layer;
+
+    </script>
+</body>
+</html>

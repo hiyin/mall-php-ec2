@@ -1,0 +1,54 @@
+<div class="leftNav">
+    <h2><img src="__INDEX__/images/b_03.jpg" alt="" />{$cateAll.catename}</h2>
+    <ul>
+        {volist name="$cateAll.child" id="child"}
+        <li>
+            {switch name="$child.catetype"}
+            {case value="1"}
+            <a href="{:url('index/Newlist/index',array('id'=>$child.id))}" title="{$child.catename}">
+                <img src="__INDEX__/images/arrow.png" alt="" />{$child.catename}</a>
+            {/case}
+            {case value="2"}
+            <a href="{:url('index/Detail/index',array('id'=>$child.id))}" title="{$child.catename}">
+                <img src="__INDEX__/images/arrow.png" alt="" />{$child.catename}</a>
+            {/case}
+            {case value="3"}
+            <a href="{:url('index/Detail/index',array('id'=>$child.id,'type'=>'page'))}" title="{$child.catename}">
+                <img src="__INDEX__/images/arrow.png" alt="" />{$child.catename}</a>
+            {/case}
+            {case value="4"}
+            <a href="#"><img src="__INDEX__/images/arrow.png" alt="" />{$child.catename}</a>
+            {/case}
+            {/switch}
+        </li>
+       {/volist}
+    </ul>
+</div>
+<div class="remmendProduct">
+    <h2><img src="__INDEX__/images/b_03.jpg" alt="" />推荐产品</h2>
+    <ul>
+        <li><a href="#"><img src="__INDEX__/images/p1.jpg" alt="" /><p>产品名称一</p></a></li>
+        <li><a href="#"><img src="__INDEX__/images/p2.jpg" alt="" /><p>产品名称一</p></a></li>
+        <li><a href="#"><img src="__INDEX__/images/p3.jpg" alt="" /><p>产品名称一</p></a></li>
+        <li><a href="#"><img src="__INDEX__/images/p4.jpg" alt="" /><p>产品名称一</p></a></li>
+    </ul>
+</div>
+<div class="remmendNew">
+
+    <h2><img src="__INDEX__/images/b_03.jpg" alt="" />推荐新闻</h2>
+    <ul>
+        {volist name="articleRem" id="vo"}
+        <li><a href="{:url('index/Detail/index',array('id'=>$vo.id))}">{$vo.title}</a></li>
+        {/volist}
+    </ul>
+</div>
+<div class="remmendNew">
+
+    <h2><img src="__INDEX__/images/b_03.jpg" alt="" />联系我们</h2>
+    <ul>
+        <li>联系人:{$sys.contact}</li>
+        <li>电话：{$sys.mobile}</li>
+        <li>手机：{$sys.telphone}</li>
+        <li>地址：{$sys.address}</li>
+    </ul>
+</div>

@@ -1,0 +1,977 @@
+---------------------------------------------------------------
+[ 2019-11-20T17:56:19+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/1/page/2
+[运行时间：0.079666s] [吞吐率：12.55req/s] [内存消耗：2,599.03kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001253s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.011271s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.012750s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '1' LIMIT 1 [ RunTime:0.001651s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '1' LIMIT 4,4 [ RunTime:0.001251s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:56:19+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/1/page/2
+[运行时间：0.095074s] [吞吐率：10.52req/s] [内存消耗：2,599.10kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012191s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.013899s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003585s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.011928s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '1' LIMIT 1 [ RunTime:0.002401s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '1' LIMIT 4,4 [ RunTime:0.001851s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:56:29+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/1/page/2
+[运行时间：0.072738s] [吞吐率：13.75req/s] [内存消耗：2,599.10kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001767s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.012766s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.010196s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '1' LIMIT 1 [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '1' LIMIT 4,4 [ RunTime:0.001023s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:57:12+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/1/page/2
+[运行时间：0.081465s] [吞吐率：12.28req/s] [内存消耗：2,599.10kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001885s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.010145s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001911s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.009602s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '1' LIMIT 1 [ RunTime:0.001998s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '1' LIMIT 4,4 [ RunTime:0.001684s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:57:26+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/1/page/1
+[运行时间：0.090839s] [吞吐率：11.01req/s] [内存消耗：2,599.21kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001212s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.011833s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001098s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.010948s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '1' LIMIT 1 [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '1' LIMIT 0,4 [ RunTime:0.000636s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:57:28+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/1/page/2
+[运行时间：0.089194s] [吞吐率：11.21req/s] [内存消耗：2,599.10kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012433s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.014440s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.010988s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '1' LIMIT 1 [ RunTime:0.001517s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '1' LIMIT 4,4 [ RunTime:0.001070s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:58:10+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/1/page/1
+[运行时间：0.079669s] [吞吐率：12.55req/s] [内存消耗：2,599.21kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001683s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.011631s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.012030s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '1' LIMIT 1 [ RunTime:0.002174s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '1' LIMIT 0,4 [ RunTime:0.001497s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:58:12+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/1/page/2
+[运行时间：0.071696s] [吞吐率：13.95req/s] [内存消耗：2,599.10kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002418s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.011559s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.010009s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '1' LIMIT 1 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '1' LIMIT 4,4 [ RunTime:0.000603s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:58:31+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/1/page/1
+[运行时间：0.075564s] [吞吐率：13.23req/s] [内存消耗：2,599.21kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001592s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.011179s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001590s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.009234s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '1' LIMIT 1 [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '1' LIMIT 0,4 [ RunTime:0.001075s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:58:45+08:00 ] 127.0.0.1 GET www.mall.com/api/index
+[运行时间：0.129950s] [吞吐率：7.70req/s] [内存消耗：2,521.16kb] [文件加载：51]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Api\controller\Index->index[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002044s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_banner` [ RunTime:0.014417s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_banner` [ RunTime:0.001131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_active` [ RunTime:0.009943s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_active` [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_icon` [ RunTime:0.009463s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_icon` [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_floor` [ RunTime:0.009296s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_floor` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.009035s ]
+[ sql ] [ SQL ] SELECT `id`,`catename` FROM `qy_cate` WHERE  `recommend` = 1 LIMIT 4 [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate_content` [ RunTime:0.009777s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '1' [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.010476s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '1' LIMIT 6 [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '2' [ RunTime:0.001894s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '2' LIMIT 6 [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '7' [ RunTime:0.001130s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '7' LIMIT 6 [ RunTime:0.001450s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate_content` WHERE  `cateid` = '8' [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`tag`,`summary`,`price` FROM `qy_product` WHERE  `recommended` = 1  AND `pid` = '8' LIMIT 6 [ RunTime:0.001048s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:58:47+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/1/page/1
+[运行时间：0.071945s] [吞吐率：13.90req/s] [内存消耗：2,599.21kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001729s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.011648s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.011113s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '1' LIMIT 1 [ RunTime:0.001713s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '1' LIMIT 0,4 [ RunTime:0.001244s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:58:48+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/1/page/2
+[运行时间：0.072084s] [吞吐率：13.87req/s] [内存消耗：2,599.10kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002252s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.012719s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001907s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.010385s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '1' LIMIT 1 [ RunTime:0.001525s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '1' LIMIT 4,4 [ RunTime:0.001255s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:58:52+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/2/page/1
+[运行时间：0.066991s] [吞吐率：14.93req/s] [内存消耗：2,598.63kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001991s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.011559s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001563s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.011179s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '2' LIMIT 1 [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '2' LIMIT 0,4 [ RunTime:0.001072s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:58:54+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/2/page/2
+[运行时间：0.076662s] [吞吐率：13.04req/s] [内存消耗：2,597.68kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001573s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.010730s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.009678s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '2' LIMIT 1 [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '2' LIMIT 4,4 [ RunTime:0.000633s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:58:58+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/7/page/1
+[运行时间：0.067717s] [吞吐率：14.77req/s] [内存消耗：2,598.45kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002583s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.010640s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.011067s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '7' LIMIT 1 [ RunTime:0.001399s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '7' LIMIT 0,4 [ RunTime:0.001040s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:58:59+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/7/page/2
+[运行时间：0.065537s] [吞吐率：15.26req/s] [内存消耗：2,597.75kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001564s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.012073s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.009559s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '7' LIMIT 1 [ RunTime:0.001595s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '7' LIMIT 4,4 [ RunTime:0.001573s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:59:05+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/8/page/1
+[运行时间：0.084861s] [吞吐率：11.78req/s] [内存消耗：2,598.76kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002269s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.013786s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.002220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.011470s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '8' LIMIT 1 [ RunTime:0.002296s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '8' LIMIT 0,4 [ RunTime:0.001883s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:59:06+08:00 ] 127.0.0.1 GET www.mall.com/api/index/catelist/id/8/page/2
+[运行时间：0.077883s] [吞吐率：12.84req/s] [内存消耗：2,597.82kb] [文件加载：55]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'catelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->catelist[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002086s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_cate` [ RunTime:0.013099s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_cate` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.010441s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  `pid` = '8' LIMIT 1 [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SELECT `id`,`smalltitle`,`mainimage`,`summary`,`tag`,`price` FROM `qy_product` WHERE  `pid` = '8' LIMIT 4,4 [ RunTime:0.001239s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:59:21+08:00 ] 127.0.0.1 GET www.mall.com/uploads/undefined
+[运行时间：0.032750s] [吞吐率：30.53req/s] [内存消耗：1,384.41kb] [文件加载：38]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'undefined',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T17:59:22+08:00 ] 127.0.0.1 GET www.mall.com/api/index/detail?id=38
+[运行时间：0.128483s] [吞吐率：7.78req/s] [内存消耗：2,509.29kb] [文件加载：51]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '38',
+)
+[ info ] [ RUN ] app\Api\controller\Index->detail[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003181s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.012627s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_attr` [ RunTime:0.011002s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_attr` WHERE  `product_id` = 38 [ RunTime:0.001506s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_image` [ RunTime:0.019393s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_image` WHERE  `product_id` = 38 [ RunTime:0.001121s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_spec` [ RunTime:0.011207s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_spec` WHERE  `product_id` = '38' [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_attr` [ RunTime:0.011982s ]
+[ sql ] [ SQL ] SELECT `attrname` FROM `qy_attr` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.001679s ]
+[ sql ] [ SQL ] SELECT `attrname` FROM `qy_attr` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_service` [ RunTime:0.012294s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_service` WHERE  `id` IN (1,3,5) [ RunTime:0.001332s ]
+---------------------------------------------------------------
+[ 2019-11-20T17:59:27+08:00 ] 127.0.0.1 GET www.mall.com/uploads/undefined
+[运行时间：0.035144s] [吞吐率：28.45req/s] [内存消耗：1,384.41kb] [文件加载：38]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'undefined',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T17:59:27+08:00 ] 127.0.0.1 GET www.mall.com/api/index/detail?id=38
+[运行时间：0.169241s] [吞吐率：5.91req/s] [内存消耗：2,509.29kb] [文件加载：51]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '38',
+)
+[ info ] [ RUN ] app\Api\controller\Index->detail[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001722s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.011139s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.001140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_attr` [ RunTime:0.010217s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_attr` WHERE  `product_id` = 38 [ RunTime:0.001081s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_image` [ RunTime:0.009758s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_image` WHERE  `product_id` = 38 [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_spec` [ RunTime:0.055351s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_spec` WHERE  `product_id` = '38' [ RunTime:0.001082s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_attr` [ RunTime:0.011343s ]
+[ sql ] [ SQL ] SELECT `attrname` FROM `qy_attr` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.001145s ]
+[ sql ] [ SQL ] SELECT `attrname` FROM `qy_attr` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_service` [ RunTime:0.013422s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_service` WHERE  `id` IN (1,3,5) [ RunTime:0.001245s ]
+---------------------------------------------------------------
+[ 2019-11-20T18:00:25+08:00 ] 127.0.0.1 GET www.mall.com/api/index/detail?id=38
+[运行时间：0.123065s] [吞吐率：8.13req/s] [内存消耗：2,509.91kb] [文件加载：51]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.19.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2b7348e7-3479-4823-bf72-2552ff3e72ef',
+  'host' => 'www.mall.com',
+  'content-type' => 'multipart/form-data; boundary=--------------------------474158767941499396292474',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '509',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '38',
+)
+[ info ] [ RUN ] app\Api\controller\Index->detail[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001753s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.011893s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.001924s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_attr` [ RunTime:0.014436s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_attr` WHERE  `product_id` = 38 [ RunTime:0.001110s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_image` [ RunTime:0.009566s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_image` WHERE  `product_id` = 38 [ RunTime:0.002010s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_spec` [ RunTime:0.011235s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_spec` WHERE  `product_id` = '38' [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_attr` [ RunTime:0.011516s ]
+[ sql ] [ SQL ] SELECT `attrname` FROM `qy_attr` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT `attrname` FROM `qy_attr` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_service` [ RunTime:0.011100s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_service` WHERE  `id` IN (1,3,5) [ RunTime:0.000713s ]
+---------------------------------------------------------------
+[ 2019-11-20T18:00:48+08:00 ] 127.0.0.1 GET www.mall.com/uploads/undefined
+[运行时间：0.027071s] [吞吐率：36.94req/s] [内存消耗：1,384.41kb] [文件加载：38]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'undefined',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T18:00:48+08:00 ] 127.0.0.1 GET www.mall.com/api/index/detail?id=38
+[运行时间：0.104327s] [吞吐率：9.59req/s] [内存消耗：2,509.29kb] [文件加载：51]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '38',
+)
+[ info ] [ RUN ] app\Api\controller\Index->detail[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002129s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.010199s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_attr` [ RunTime:0.011124s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_attr` WHERE  `product_id` = 38 [ RunTime:0.002133s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_image` [ RunTime:0.009405s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_image` WHERE  `product_id` = 38 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_spec` [ RunTime:0.009306s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_spec` WHERE  `product_id` = '38' [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_attr` [ RunTime:0.008847s ]
+[ sql ] [ SQL ] SELECT `attrname` FROM `qy_attr` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT `attrname` FROM `qy_attr` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_service` [ RunTime:0.009015s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_service` WHERE  `id` IN (1,3,5) [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2019-11-20T18:01:45+08:00 ] 127.0.0.1 GET www.mall.com/uploads/undefined
+[运行时间：0.037411s] [吞吐率：26.73req/s] [内存消耗：1,384.41kb] [文件加载：38]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'undefined',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T18:01:45+08:00 ] 127.0.0.1 GET www.mall.com/api/index/detail?id=38
+[运行时间：0.122632s] [吞吐率：8.15req/s] [内存消耗：2,509.29kb] [文件加载：51]
+[ info ] [ LANG ] E:\phpstudy\PHPTutorial\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Mobile Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '38',
+)
+[ info ] [ RUN ] app\Api\controller\Index->detail[ E:\phpstudy\PHPTutorial\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001530s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.008937s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.001212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_attr` [ RunTime:0.009602s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_attr` WHERE  `product_id` = 38 [ RunTime:0.003041s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_image` [ RunTime:0.010773s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_image` WHERE  `product_id` = 38 [ RunTime:0.001065s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_spec` [ RunTime:0.010710s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_spec` WHERE  `product_id` = '38' [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_attr` [ RunTime:0.009940s ]
+[ sql ] [ SQL ] SELECT `attrname` FROM `qy_attr` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT `attrname` FROM `qy_attr` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product_service` [ RunTime:0.010405s ]
+[ sql ] [ SQL ] SELECT * FROM `qy_product_service` WHERE  `id` IN (1,3,5) [ RunTime:0.001025s ]

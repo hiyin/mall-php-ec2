@@ -1,0 +1,1505 @@
+---------------------------------------------------------------
+[ 2020-04-11T00:00:41+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.085905s] [吞吐率：11.64req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001505s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.016900s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001753s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001539s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:01:14+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.084545s] [吞吐率：11.83req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002259s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.027428s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001786s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001572s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:01:24+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.091414s] [吞吐率：10.94req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002114s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.018611s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000946s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:01:45+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.077660s] [吞吐率：12.88req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001292s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.018898s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000661s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:02:07+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.080653s] [吞吐率：12.40req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011983s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.016597s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.002701s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.002963s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:03:01+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.088150s] [吞吐率：11.34req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011321s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.024660s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001424s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001138s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:03:22+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.081369s] [吞吐率：12.29req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011475s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.023974s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001757s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.002387s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:03:43+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.072313s] [吞吐率：13.83req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003059s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.019053s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001200s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:03:50+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.081354s] [吞吐率：12.29req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001243s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.024014s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000942s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:04:32+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.071969s] [吞吐率：13.89req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010868s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.013808s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000663s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:05:00+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.075532s] [吞吐率：13.24req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010712s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.016355s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000989s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:05:06+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.087232s] [吞吐率：11.46req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001203s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.028630s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000843s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:05:58+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.074703s] [吞吐率：13.39req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010907s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.015947s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001138s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000938s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:06:36+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.083728s] [吞吐率：11.94req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012132s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.023462s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001614s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:06:37+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.073271s] [吞吐率：13.65req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001192s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.022960s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.002211s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001576s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:06:39+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=2
+[运行时间：0.072529s] [吞吐率：13.79req/s] [内存消耗：2,644.49kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012071s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.018207s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 10,10 [ RunTime:0.000936s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:06:58+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.095168s] [吞吐率：10.51req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007368s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.027205s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001500s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000998s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:06:58+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.096082s] [吞吐率：10.41req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015399s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.022975s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000700s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:07:00+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=2
+[运行时间：0.068011s] [吞吐率：14.70req/s] [内存消耗：2,644.49kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011234s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.014770s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 10,10 [ RunTime:0.000957s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:07:02+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=3
+[运行时间：0.077868s] [吞吐率：12.84req/s] [内存消耗：2,638.57kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '3',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011317s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.022619s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001358s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 20,10 [ RunTime:0.001012s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:07:06+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=2&page=1
+[运行时间：0.083483s] [吞吐率：11.98req/s] [内存消耗：2,642.84kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '2',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011290s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.025511s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001021s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` ASC LIMIT 0,10 [ RunTime:0.001039s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:07:10+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=2&page=2
+[运行时间：0.079270s] [吞吐率：12.62req/s] [内存消耗：2,644.66kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '2',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012052s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.015079s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001135s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` ASC LIMIT 10,10 [ RunTime:0.001090s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:07:12+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=2&page=3
+[运行时间：0.076297s] [吞吐率：13.11req/s] [内存消耗：2,638.58kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '2',
+  'page' => '3',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012038s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.022782s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` ASC LIMIT 20,10 [ RunTime:0.000962s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:07:15+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=3&page=1
+[运行时间：0.081173s] [吞吐率：12.32req/s] [内存消耗：2,644.42kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '3',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010865s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.017802s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001823s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` DESC LIMIT 0,10 [ RunTime:0.001262s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:07:47+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.074637s] [吞吐率：13.40req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002012s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.016324s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.002013s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001122s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:07:50+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=2&page=1
+[运行时间：0.060492s] [吞吐率：16.53req/s] [内存消耗：2,642.84kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '2',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001541s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.015663s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` ASC LIMIT 0,10 [ RunTime:0.001328s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:07:53+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=2&page=2
+[运行时间：0.073545s] [吞吐率：13.60req/s] [内存消耗：2,644.66kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '2',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011546s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.016915s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001848s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` ASC LIMIT 10,10 [ RunTime:0.001484s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:07:55+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=2&page=3
+[运行时间：0.071402s] [吞吐率：14.01req/s] [内存消耗：2,638.58kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '2',
+  'page' => '3',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011396s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.015925s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001533s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` ASC LIMIT 20,10 [ RunTime:0.001145s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:07:58+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=3&page=1
+[运行时间：0.075452s] [吞吐率：13.25req/s] [内存消耗：2,644.42kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '3',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011041s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.016621s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001242s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` DESC LIMIT 0,10 [ RunTime:0.001169s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:08:02+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=3&page=2
+[运行时间：0.072369s] [吞吐率：13.82req/s] [内存消耗：2,643.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '3',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012388s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.016451s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001553s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` DESC LIMIT 10,10 [ RunTime:0.001344s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:08:04+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=3&page=3
+[运行时间：0.080903s] [吞吐率：12.36req/s] [内存消耗：2,638.20kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '3',
+  'page' => '3',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010724s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.027387s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` DESC LIMIT 20,10 [ RunTime:0.000807s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:08:13+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=2&page=1
+[运行时间：0.073816s] [吞吐率：13.55req/s] [内存消耗：2,642.84kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '2',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010623s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.018625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001303s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` ASC LIMIT 0,10 [ RunTime:0.000955s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:08:18+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=2&page=2
+[运行时间：0.069696s] [吞吐率：14.35req/s] [内存消耗：2,644.66kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '2',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011747s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.014872s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` ASC LIMIT 10,10 [ RunTime:0.000897s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:08:20+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=2&page=3
+[运行时间：0.078358s] [吞吐率：12.76req/s] [内存消耗：2,638.58kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '2',
+  'page' => '3',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018245s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.017732s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001172s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` ASC LIMIT 20,10 [ RunTime:0.001111s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:08:21+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=4&page=1
+[运行时间：0.061513s] [吞吐率：16.26req/s] [内存消耗：2,644.41kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '4',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001921s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.015871s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `sale` DESC LIMIT 0,10 [ RunTime:0.001155s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:08:45+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.091864s] [吞吐率：10.89req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011332s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.034993s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001017s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:08:46+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=3&page=1
+[运行时间：0.069772s] [吞吐率：14.33req/s] [内存消耗：2,644.42kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '3',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011168s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.017297s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` DESC LIMIT 0,10 [ RunTime:0.001117s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:08:47+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=3&page=2
+[运行时间：0.081368s] [吞吐率：12.29req/s] [内存消耗：2,643.09kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '3',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010876s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.026548s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001144s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` DESC LIMIT 10,10 [ RunTime:0.001312s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:08:49+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=4&page=1
+[运行时间：0.060759s] [吞吐率：16.46req/s] [内存消耗：2,644.41kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '4',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001249s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.014562s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `sale` DESC LIMIT 0,10 [ RunTime:0.000896s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:08:50+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=2&page=1
+[运行时间：0.080411s] [吞吐率：12.44req/s] [内存消耗：2,642.84kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '2',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012177s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.028102s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `price` ASC LIMIT 0,10 [ RunTime:0.001160s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:08:52+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=1
+[运行时间：0.068585s] [吞吐率：14.58req/s] [内存消耗：2,643.19kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '1',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011473s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.015157s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.000879s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000906s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:08:54+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=2
+[运行时间：0.071959s] [吞吐率：13.90req/s] [内存消耗：2,644.49kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '2',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012519s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.017222s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 10,10 [ RunTime:0.001406s ]
+---------------------------------------------------------------
+[ 2020-04-11T00:08:56+08:00 ] 127.0.0.1 GET www.mall.com/api/index/search_list?keyword=%E9%AD%85%E6%97%8F&type=1&page=3
+[运行时间：0.072207s] [吞吐率：13.85req/s] [内存消耗：2,638.57kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\mall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'search_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mall.com',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '魅族',
+  'type' => '1',
+  'page' => '3',
+)
+[ info ] [ RUN ] app\Api\controller\Index->search_list[ D:\phpStudy\WWW\mall\application\Api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012271s ] mysql:host=127.0.0.1;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qy_product` [ RunTime:0.015768s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) LIMIT 1 [ RunTime:0.001172s ]
+[ sql ] [ SQL ] SELECT `id`,`price`,`title`,`mainimage`,`smalltitle`,`summary`,`sale`,`tag` FROM `qy_product` WHERE  ( `title` LIKE '%魅族%' AND `smalltitle` LIKE '%魅族%' ) ORDER BY `id` DESC LIMIT 20,10 [ RunTime:0.001093s ]
