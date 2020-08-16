@@ -1,0 +1,12 @@
+.layui-form-item{
+    width: 95%;margin:15px auto 0px;}
+.layui-btn{margin-bottom:25px;}
+
+#pagination{padding:10px 0 20px;}
+#pagination li{float:left;padding: 0 12px;}
+#pagination li.active{background-color:#177ce3;border-radius: 2px;}
+#pagination li a,.pagination li span{font-size:14px;color:#333;}
+#pagination li.active span{ color:#fff;}
+#pagination li a:hover{color:#177ce3;}
+#pagination li.disabled span{color:#999;}
+
