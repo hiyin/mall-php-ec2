@@ -110,21 +110,6 @@ class Pay extends Controller
 
     }
 
-    public function cashpay(){
 
-        $res=db('order')->where('id','=',input('orderid'))
-            ->update(['status'=>2,'paytype'=>3,'paytime'=>time()]);
-        
-        //$pay=db('order')->where('id','=',input('orderid'))->find();
-
-        $result['paytime']=time();
-
-        if($res){
-            return json(['code'=>1,"msg"=>'现金支付成功',"orderid"=>input('orderid'),"data"=>$result]);
-        }else{
-            return json(['code'=>0,"msg"=>'现金支付失败']);
-        }
-
-    }
 
 }
