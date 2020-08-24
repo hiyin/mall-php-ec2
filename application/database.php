@@ -13,18 +13,13 @@ return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-    //'hostname'        => 'localhost:3306',
-    'hostname'        => 'us-cdbr-east-02.cleardb.com',
+    'hostname'        => 'localhost:3306',
     // 数据库名
-    //'database'        => 'mall',
-    'database'        => 'heroku_47a86ec2b697991',
-    //
+    'database'        => 'mall',
     // 用户名
-    //'username'        => 'root',
-    'username'        => 'bdf6a7b68d1f66',
+    'username'        => 'user',
     // 密码
-    //'password'        => 'root',
-    'password'        => '92064cf4',
+    'password'        => 'useruser',
     // 端口
     'hostport'        => '',
     // 连接dsn
